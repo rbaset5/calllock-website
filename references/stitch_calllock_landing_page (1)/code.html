@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CallLock - Process</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#13ec80",
+                "primary-dark": "#0fb863",
+                "background-light": "#f8fcfa",
+                "background-dark": "#102219",
+                "surface-light": "#ffffff",
+                "surface-dark": "#1a3326",
+                "text-main": "#0d1b14",
+                "text-muted": "#4c9a73",
+              },
+              fontFamily: {
+                "display": ["Inter", "Noto Sans", "sans-serif"],
+                "body": ["Inter", "Noto Sans", "sans-serif"],
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark min-h-screen flex flex-col font-display text-text-main dark:text-gray-100 overflow-x-hidden">
+<!-- Top Navigation -->
+<nav class="sticky top-0 z-50 w-full border-b border-[#e7f3ed] dark:border-white/10 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-10 py-3">
+<div class="flex items-center justify-between whitespace-nowrap">
+<div class="flex items-center gap-3 text-[#0d1b14] dark:text-white">
+<div class="size-6 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">call_log</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">CallLock</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#0d1b14] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">How It Works</a>
+<a class="text-[#0d1b14] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Pricing</a>
+<a class="text-[#0d1b14] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">About</a>
+</div>
+<button class="flex cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary hover:bg-primary-dark transition-colors text-[#0d1b14] text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Book Intro Call</span>
+</button>
+</div>
+<!-- Mobile Menu Icon -->
+<div class="md:hidden flex items-center">
+<span class="material-symbols-outlined cursor-pointer text-[#0d1b14] dark:text-white">menu</span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero / Page Heading -->
+<header class="relative px-4 sm:px-10 py-16 sm:py-24 flex justify-center overflow-hidden">
+<!-- Background decorative elements -->
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-[1440px] pointer-events-none opacity-40">
+<div class="absolute top-20 right-10 w-64 h-64 bg-primary/20 rounded-full blur-[100px]"></div>
+<div class="absolute bottom-10 left-10 w-72 h-72 bg-blue-400/10 rounded-full blur-[100px]"></div>
+</div>
+<div class="max-w-[960px] flex flex-col items-center text-center gap-6 relative z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-text-main dark:text-white text-xs font-semibold uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm text-primary filled">bolt</span>
+                The Process
+            </div>
+<h1 class="text-[#0d1b14] dark:text-white text-4xl sm:text-5xl md:text-6xl font-black leading-[1.1] tracking-[-0.033em]">
+                From Ringing Phone to <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-green-600">Booked Job—Autopilot.</span>
+</h1>
+<p class="text-[#4c9a73] dark:text-gray-400 text-lg sm:text-xl font-normal leading-relaxed max-w-2xl">
+                See exactly how CallLock transforms missed calls into revenue without you lifting a finger. It's as simple as 1, 2, 3.
+            </p>
+</div>
+</header>
+<!-- Step 1 -->
+<section class="py-16 sm:py-24 px-4 sm:px-10 bg-white dark:bg-surface-dark border-y border-[#e7f3ed] dark:border-white/5">
+<div class="max-w-[1100px] mx-auto">
+<div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+<div class="flex-1 flex flex-col gap-6 order-2 md:order-1">
+<div class="size-14 rounded-xl bg-primary/20 flex items-center justify-center text-primary-dark dark:text-primary mb-2">
+<span class="material-symbols-outlined text-3xl filled">ring_volume</span>
+</div>
+<div>
+<h3 class="text-[#0d1b14] dark:text-white text-3xl font-bold leading-tight mb-3">1. The Call Comes In</h3>
+<p class="text-[#4c9a73] dark:text-gray-300 text-lg leading-relaxed">
+                            Whether it's 2 PM while you're under a house, or 2 AM while you're asleep, CallLock answers instantly. There are no holds, no "press 1 for service", and definitely no voicemail black holes.
+                        </p>
+</div>
+<ul class="flex flex-col gap-3 mt-2">
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Answers within 2 seconds
+                        </li>
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Friendly, human-like voice
+                        </li>
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            24/7/365 Availability
+                        </li>
+</ul>
+</div>
+<div class="flex-1 w-full order-1 md:order-2">
+<div class="relative w-full aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gray-100 dark:bg-gray-800 group">
+<!-- Abstract representation of an incoming call being answered -->
+<div class="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-black" data-alt="Gradient background for phone concept"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="relative w-48 h-80 bg-white dark:bg-gray-900 rounded-[2rem] border-4 border-gray-200 dark:border-gray-700 shadow-xl flex flex-col items-center justify-center p-4">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4 animate-pulse">
+<span class="material-symbols-outlined text-3xl text-white">phone_in_talk</span>
+</div>
+<div class="w-24 h-4 bg-gray-200 dark:bg-gray-700 rounded-full mb-2"></div>
+<div class="w-16 h-3 bg-gray-100 dark:bg-gray-800 rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Step 2 -->
+<section class="py-16 sm:py-24 px-4 sm:px-10 bg-background-light dark:bg-background-dark">
+<div class="max-w-[1100px] mx-auto">
+<div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+<div class="flex-1 w-full order-1">
+<div class="relative w-full aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gray-100 dark:bg-gray-800">
+<!-- Abstract representation of AI processing logic -->
+<div class="absolute inset-0 bg-gradient-to-bl from-green-50 to-primary/10 dark:from-gray-900 dark:to-green-900/20" data-alt="AI processing visualization background"></div>
+<div class="absolute inset-0 flex items-center justify-center p-8">
+<div class="w-full max-w-sm bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex flex-col gap-4">
+<div class="flex gap-3">
+<div class="size-8 rounded-full bg-gray-200 dark:bg-gray-600 flex-shrink-0"></div>
+<div class="bg-gray-100 dark:bg-gray-700 rounded-lg rounded-tl-none p-3 text-sm text-gray-600 dark:text-gray-300">
+                                        Hi, my AC is blowing warm air. Can you help?
+                                    </div>
+</div>
+<div class="flex gap-3 flex-row-reverse">
+<div class="size-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 text-white font-bold text-xs">AI</div>
+<div class="bg-primary/10 dark:bg-primary/20 border border-primary/20 rounded-lg rounded-tr-none p-3 text-sm text-gray-800 dark:text-gray-100">
+                                        I can certainly help with that. Is it the unit in your home or business?
+                                    </div>
+</div>
+<div class="flex gap-3 mt-2 opacity-50">
+<div class="h-2 w-12 bg-gray-200 dark:bg-gray-700 rounded-full animate-pulse"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex-1 flex flex-col gap-6 order-2">
+<div class="size-14 rounded-xl bg-primary/20 flex items-center justify-center text-primary-dark dark:text-primary mb-2">
+<span class="material-symbols-outlined text-3xl filled">psychology</span>
+</div>
+<div>
+<h3 class="text-[#0d1b14] dark:text-white text-3xl font-bold leading-tight mb-3">2. AI Handles the Conversation</h3>
+<p class="text-[#4c9a73] dark:text-gray-300 text-lg leading-relaxed">
+                            Our AI isn't just a script reader. It qualifies the lead, checks your real-time schedule, and answers HVAC-specific questions naturally. It understands context, urgency, and tone.
+                        </p>
+</div>
+<ul class="flex flex-col gap-3 mt-2">
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Qualifies leads (Residential vs Commercial)
+                        </li>
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Checks your CRM calendar for slots
+                        </li>
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Collects address &amp; issue details
+                        </li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Step 3 -->
+<section class="py-16 sm:py-24 px-4 sm:px-10 bg-white dark:bg-surface-dark border-t border-[#e7f3ed] dark:border-white/5">
+<div class="max-w-[1100px] mx-auto">
+<div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+<div class="flex-1 flex flex-col gap-6 order-2 md:order-1">
+<div class="size-14 rounded-xl bg-primary/20 flex items-center justify-center text-primary-dark dark:text-primary mb-2">
+<span class="material-symbols-outlined text-3xl filled">calendar_month</span>
+</div>
+<div>
+<h3 class="text-[#0d1b14] dark:text-white text-3xl font-bold leading-tight mb-3">3. Instant Notification &amp; Booking</h3>
+<p class="text-[#4c9a73] dark:text-gray-300 text-lg leading-relaxed">
+                            Done deal. You receive a summary text immediately with the job details. The appointment is added to your calendar automatically, and the customer gets a confirmation.
+                        </p>
+</div>
+<ul class="flex flex-col gap-3 mt-2">
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Instant SMS/Email summary
+                        </li>
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Syncs with ServiceTitan, Housecall Pro, etc.
+                        </li>
+<li class="flex items-center gap-3 text-[#0d1b14] dark:text-gray-200 font-medium">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Full call recording &amp; transcript available
+                        </li>
+</ul>
+</div>
+<div class="flex-1 w-full order-1 md:order-2">
+<div class="relative w-full aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gray-100 dark:bg-gray-800">
+<!-- Abstract representation of a calendar booking notification -->
+<div class="absolute inset-0 bg-gradient-to-t from-gray-50 to-white dark:from-gray-900 dark:to-gray-800" data-alt="Calendar sync and notification concept"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-64 bg-white dark:bg-gray-900 rounded-xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden">
+<div class="bg-primary/20 p-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-dark dark:text-primary text-sm">event_available</span>
+<span class="text-xs font-bold text-primary-dark dark:text-primary uppercase tracking-wide">New Booking</span>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<div class="text-sm font-bold text-gray-900 dark:text-white">Service Call: No Cool</div>
+<div class="text-xs text-gray-500">2m ago</div>
+</div>
+<div class="text-xs text-gray-500 dark:text-gray-400">Tom Wilson</div>
+<div class="text-xs text-gray-500 dark:text-gray-400">123 Maple Ave</div>
+<div class="mt-2 p-2 bg-gray-50 dark:bg-gray-800 rounded border border-gray-100 dark:border-gray-700 text-xs text-gray-600 dark:text-gray-300">
+                                        Scheduled: Tomorrow @ 10 AM
+                                    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comparison Section -->
+<section class="py-20 px-4 sm:px-10 bg-background-light dark:bg-background-dark">
+<div class="max-w-[1100px] mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-[#0d1b14] dark:text-white text-3xl sm:text-4xl font-bold leading-tight mb-4">Why HVAC Pros Switch</h2>
+<p class="text-[#4c9a73] dark:text-gray-400 max-w-2xl mx-auto">The difference between a growing business and a stressful one is how you handle the phone.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Without CallLock -->
+<div class="bg-white dark:bg-surface-dark rounded-2xl p-8 border border-red-100 dark:border-red-900/30 shadow-sm relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1 bg-red-400"></div>
+<div class="flex items-center gap-3 mb-6">
+<div class="size-10 rounded-full bg-red-100 dark:bg-red-900/50 flex items-center justify-center text-red-500">
+<span class="material-symbols-outlined">close</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white">Manual Reception</h3>
+</div>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-red-400 shrink-0 mt-0.5">call_missed</span>
+<div>
+<strong class="block text-gray-900 dark:text-white text-sm">Missed Calls = Lost Revenue</strong>
+<span class="text-sm text-gray-500 dark:text-gray-400">62% of calls to HVAC companies go unanswered.</span>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-red-400 shrink-0 mt-0.5">voicemail</span>
+<div>
+<strong class="block text-gray-900 dark:text-white text-sm">The Voicemail Trap</strong>
+<span class="text-sm text-gray-500 dark:text-gray-400">Customers rarely leave voicemails; they just call the next guy.</span>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-red-400 shrink-0 mt-0.5">person_off</span>
+<div>
+<strong class="block text-gray-900 dark:text-white text-sm">Staff Burnout</strong>
+<span class="text-sm text-gray-500 dark:text-gray-400">Receptionists can't work 24/7, and you need sleep.</span>
+</div>
+</li>
+</ul>
+</div>
+<!-- With CallLock -->
+<div class="bg-white dark:bg-surface-dark rounded-2xl p-8 border border-primary/30 shadow-lg relative overflow-hidden transform md:-translate-y-2">
+<div class="absolute top-0 left-0 w-full h-1 bg-primary"></div>
+<div class="flex items-center gap-3 mb-6">
+<div class="size-10 rounded-full bg-primary/20 flex items-center justify-center text-primary-dark dark:text-primary">
+<span class="material-symbols-outlined filled">check</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white">CallLock AI</h3>
+</div>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary shrink-0 mt-0.5 filled">flash_on</span>
+<div>
+<strong class="block text-gray-900 dark:text-white text-sm">100% Answer Rate</strong>
+<span class="text-sm text-gray-500 dark:text-gray-400">Every single lead is captured, day or night.</span>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary shrink-0 mt-0.5 filled">calendar_add_on</span>
+<div>
+<strong class="block text-gray-900 dark:text-white text-sm">Instant Booking</strong>
+<span class="text-sm text-gray-500 dark:text-gray-400">Turn callers into booked jobs before they hang up.</span>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary shrink-0 mt-0.5 filled">savings</span>
+<div>
+<strong class="block text-gray-900 dark:text-white text-sm">Fraction of the Cost</strong>
+<span class="text-sm text-gray-500 dark:text-gray-400">Costs less than 1/10th of a full-time employee.</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Bottom CTA -->
+<section class="py-20 px-4 sm:px-10 bg-[#0d1b14] text-white relative overflow-hidden">
+<div class="absolute inset-0 bg-[url('https://placeholder.pics/svg/200/0d1b14/15291f')] bg-fixed opacity-10" data-alt="Subtle pattern background"></div>
+<div class="max-w-[720px] mx-auto flex flex-col items-center text-center relative z-10">
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight mb-6">Ready to stop missing jobs?</h2>
+<p class="text-gray-300 text-lg mb-10 max-w-lg">
+                Setup takes less than 15 minutes. Integrate with your current phone number and start booking jobs on autopilot today.
+            </p>
+<button class="group flex items-center justify-center gap-3 rounded-xl h-14 px-8 bg-primary hover:bg-primary-dark transition-all transform hover:scale-105 text-[#0d1b14] text-base font-bold leading-normal tracking-wide shadow-lg shadow-primary/25">
+<span>Book Your Intro Call</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<p class="mt-6 text-sm text-gray-500 font-medium">No credit card required for demo.</p>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-white dark:bg-surface-dark border-t border-[#e7f3ed] dark:border-white/5 py-12 px-4 sm:px-10">
+<div class="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 text-[#0d1b14] dark:text-white">
+<span class="material-symbols-outlined text-primary">call_log</span>
+<span class="font-bold text-lg">CallLock</span>
+</div>
+<div class="flex gap-8">
+<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary transition-colors" href="#">Privacy</a>
+<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary transition-colors" href="#">Terms</a>
+<a class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<div class="text-sm text-gray-400 dark:text-gray-600">
+                © 2023 CallLock AI. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>

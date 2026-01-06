@@ -1,26 +1,77 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fdfbf4;
+  --foreground: #1c1a12;
+  --primary: #E0CD67;
+  --primary-foreground: #1c1a12;
+  --muted: #6b6b6b;
+  --card: #ffffff;
+  --border: #e8e4d3;
+  --radius: 0.75rem;
 }
 
-@theme inline {
+.dark {
+  --background: #141310;
+  --foreground: #fdfbf4;
+  --primary: #E0CD67;
+  --primary-foreground: #1c1a12;
+  --muted: #a0a0a0;
+  --card: #1f1e1a;
+  --border: rgba(224, 205, 103, 0.1);
+}
+
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --radius-xl: var(--radius);
+
+  /* Typography - Display font for headlines */
+  --font-display: var(--font-display), system-ui, sans-serif;
+  /* Typography - Body font for text */
+  --font-body: var(--font-body), system-ui, sans-serif;
+  --font-sans: var(--font-body), system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headlines use display font (Plus Jakarta Sans) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+}
+
+* {
+  border-color: var(--border);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .glass {
+  background: rgba(20, 19, 16, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(224, 205, 103, 0.05);
 }
