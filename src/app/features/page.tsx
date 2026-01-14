@@ -77,8 +77,8 @@ export default function FeaturesPage() {
                             <div className="flex-1 w-full">
                                 <div className="bg-card rounded-[3rem] border border-border aspect-video shadow-2xl flex items-center justify-center relative overflow-hidden group">
                                     {f.image ? (
-                                        <Image 
-                                            src={f.image} 
+                                        <Image
+                                            src={f.image}
                                             alt={f.title}
                                             fill
                                             className="object-contain p-8"
@@ -100,7 +100,7 @@ export default function FeaturesPage() {
             <section className="py-24 lg:py-40">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-20">
-                        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">Why HVAC Pros Switch</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">Why Trades Home Services Pros Switch</h2>
                     </div>
 
                     <div className="max-w-5xl mx-auto overflow-hidden rounded-3xl border border-border shadow-2xl">

@@ -10,7 +10,7 @@
 ## � Phase 2: Homepage Development
 - [x] Hero Section with Interactive Call Mockup
 - [x] Trust Bar (Capability Statements)
-- [x] Value Proposition Grid (HVAC Focus)
+- [x] Value Proposition Grid (Trades Home Services Focus)
 - [x] Surge Capture Section (The "Infinite Lane" Advantage)
 - [x] Features Preview
 - [x] Pricing Preview

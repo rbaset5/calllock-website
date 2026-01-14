@@ -7,7 +7,7 @@ import { ArrowRight, Play, CheckCircle, Phone, Bot } from "lucide-react";
 
 export function Hero() {
     return (
-        <section className="relative pt-20 pb-20 lg:pt-32 lg:pb-40 overflow-hidden">
+        <section className="relative pt-12 pb-12 lg:pt-20 lg:pb-16 overflow-hidden">
             {/* Background Decorative Elements */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-[1440px] pointer-events-none -z-10">
                 <div className="absolute top-0 right-[-10%] w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] opacity-50" />
@@ -49,7 +49,7 @@ export function Hero() {
                         </div>
                     </motion.div>
 
-                    {/* HVAC Technician Image with Notification */}
+                    {/* Trades Home Services Technician Image with Notification */}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -57,9 +57,9 @@ export function Hero() {
                         className="relative flex justify-center lg:justify-end"
                     >
                         <div className="relative w-full max-w-md lg:max-w-sm rounded-[2rem] overflow-hidden shadow-2xl border-4 border-card group">
-                            {/* HVAC Technician Image */}
+                            {/* Trades Home Services Technician Image */}
                             <img
-                                alt="HVAC Technician working on unit"
+                                alt="Trades Home Services Technician working on unit"
                                 className="w-full h-[600px] object-cover"
                                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8BXpSlrIhHLxwmB8mVkKW7LYQS_ihW7USSVFsaMFkJeo7B3tOIxDez2lNIPcCWDUfahw_LaNfk_lYdNqLbV3sav48dDYosVVFFEDWQgBNfDNTqXChAhhzHMgpuIXR91G8KNubCV2ttnS9roNtst8huOONpPhmilA6X_s3lWYeLbQbYwVS_0Ry9GDhHczmrIjDeZoD4rVFl2HK7ggk2vgBxZy9M7-lhvDFbtP4REP4W7kLSzkCrNn516bDDPQ2vEWmRNYAeYNKLr3s"
                             />

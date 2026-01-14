@@ -16,7 +16,7 @@ export function Footer() {
                             </span>
                         </Link>
                         <p className="text-muted font-normal leading-relaxed max-w-xs">
-                            Your AI receptionist answers when you can&apos;t. Designed specifically for the modern HVAC professional.
+                            Your AI receptionist answers when you can&apos;t. Designed specifically for the modern Trades Home Services professional.
                         </p>
                     </div>
 

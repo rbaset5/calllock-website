@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fdfbf4;
+  --background: #fdfbf7;
   --foreground: #1c1a12;
-  --primary: #E0CD67;
-  --primary-foreground: #1c1a12;
+  --primary: #C5A520;
+  --primary-foreground: #ffffff;
   --muted: #6b6b6b;
   --card: #ffffff;
   --border: #e8e4d3;
-  --radius: 0.75rem;
+  --radius: 1rem;
 }
 
 .dark {

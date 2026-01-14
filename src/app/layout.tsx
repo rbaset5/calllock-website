@@ -19,7 +19,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "CallLock | Your AI Receptionist Answers When You Can't",
-  description: "Stop missing high-value HVAC jobs. Our AI receptionist answers instantly, qualifies leads, and books appointments 24/7.",
+  description: "Stop missing high-value Trades Home Services jobs. Our AI receptionist answers instantly, qualifies leads, and books appointments 24/7.",
 };
 
 export default function RootLayout({
