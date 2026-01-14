@@ -31,7 +31,7 @@ export function SurgeCapture() {
                                 Monday morning rush. First cold snap. Summer heatwave.
                             </p>
                             <p>
-                                Here&apos;s the dirty secret of answering services: you aren&apos;t their only client. When a storm hits, all their Trades Home Services clients get busy at the same time. Their staff gets overwhelmed, and your customers end up waiting in line behind another Trades Home Services company&apos;s customers.
+                                Here&apos;s the dirty secret of answering services: you aren&apos;t their only client. When a storm hits, all their Trades Home Service clients get busy at the same time. Their staff gets overwhelmed, and your customers end up waiting in line behind another Trades Home Service company&apos;s customers.
                             </p>
                             <p className="font-bold text-2xl lg:text-3xl mt-12 bg-foreground text-background inline-block px-4 py-2 rounded-lg">
                                 With CallLock, you have your own infinite lane.

@@ -59,7 +59,7 @@ Answers in <2 seconds  •  Handles 50 calls simultaneously  •  24/7/365 cover
 
 **Section Header:**
 ```
-Headline: Why Trades Home Services Pros Choose CallLock
+Headline: Why Trades Home Service Pros Choose CallLock
 Subheadline: Stop playing phone tag. Let AI capture every opportunity while you focus on the job.
 ```
 
@@ -193,7 +193,7 @@ Headline: When Everyone Calls at Once
 Body:
 Monday morning rush. First cold snap. Summer heatwave.
 
-Here's the dirty secret of answering services: you aren't their only client. When a storm hits, all their Trades Home Services clients get busy at the same time. Their staff gets overwhelmed, and your customers end up waiting in line behind another Trades Home Services company's customers.
+Here's the dirty secret of answering services: you aren't their only client. When a storm hits, all their Trades Home Service clients get busy at the same time. Their staff gets overwhelmed, and your customers end up waiting in line behind another Trades Home Service company's customers.
 
 With CallLock, you have your own infinite lane. 50 calls at the exact same second? Every single one gets answered.
 
@@ -207,7 +207,7 @@ Tagline: You capture the entire surge while competitors are stuck in a queue.
 ```
 Headline: See It In Action
 
-Body: Listen to how CallLock handles an actual Trades Home Services request—from first ring to booked job.
+Body: Listen to how CallLock handles an actual Trades Home Service request—from first ring to booked job.
 
 CTA 1: Play Sample Call
 CTA 2: Book Your Intro Call →
@@ -337,7 +337,7 @@ Q: How is this different from an answering service?
 
 A: Answering services take messages. You call back hours later. By then, the customer hired someone else.
 
-CallLock is different: the caller stays on the line and books right there. No message, no callback, no delay. And here's the thing—answering services share staff across all their Trades Home Services clients. When it's busy, your customers wait in line behind your competitors' customers. With CallLock, you have your own infinite lane.
+CallLock is different: the caller stays on the line and books right there. No message, no callback, no delay. And here's the thing—answering services share staff across all their Trades Home Service clients. When it's busy, your customers wait in line behind your competitors' customers. With CallLock, you have your own infinite lane.
 ```
 
 ### FAQ 3
@@ -483,7 +483,7 @@ Checkmarks:
 Headline: Manual Reception
 
 • Missed Calls = Lost Revenue
-  62% of calls to Trades Home Services companies go unanswered. That's jobs walking to competitors.
+  62% of calls to Trades Home Service companies go unanswered. That's jobs walking to competitors.
 
 • The Voicemail Trap
   Customers rarely leave voicemails. They just call the next guy.
@@ -623,7 +623,7 @@ Body: Appointment booked. Customer confirmed. You're notified. Job secured.
 ## Comparison Table
 
 ```
-Headline: Why Trades Home Services Pros Switch
+Headline: Why Trades Home Service Pros Switch
 
 | Feature           | CallLock AI    | Human Receptionist | Voicemail        |
 |-------------------|----------------|--------------------| -----------------|
@@ -769,7 +769,7 @@ Label: THE MATH
 Headline: One Job Pays for Itself.
 
 Body:
-Your average Trades Home Services job is $500.
+Your average Trades Home Service job is $500.
 
 If CallLock books even one job a month that would've gone to voicemail, you've covered the cost.
 
@@ -849,9 +849,9 @@ Subtext: No credit card required. Live in under 30 minutes.
 ## Hero Section
 
 ```
-Headline: We Help Trades Home Services Pros Never Miss a Lead
+Headline: We Help Trades Home Service Pros Never Miss a Lead
 
-Subheadline: CallLock is an AI receptionist built specifically for Trades Home Services. When your customers call with an emergency, your business is there to answer—24/7, without the overhead.
+Subheadline: CallLock is an AI receptionist built specifically for Trades Home Service. When your customers call with an emergency, your business is there to answer—24/7, without the overhead.
 
 CTA: Book Your Intro Call →
 ```
@@ -864,7 +864,7 @@ CTA: Book Your Intro Call →
 Headline: Our Mission
 
 Body:
-Great Trades Home Services businesses lose money every day—not because they do bad work, but because they're too busy doing good work to answer the phone.
+Great Trades Home Service businesses lose money every day—not because they do bad work, but because they're too busy doing good work to answer the phone.
 
 Customer calls. Owner's on a job. Voicemail picks up. Customer hangs up and calls someone who answers.
 
@@ -881,13 +881,13 @@ That's it. Simple problem. Simple solution.
 
 ## Values Section (3 Cards)
 
-### Value 1: Built for Trades Home Services
+### Value 1: Built for Trades Home Service
 ```
 Icon: handyman
 
-Headline: Built for Trades Home Services
+Headline: Built for Trades Home Service
 
-Body: We don't just know tech—we know Trades Home Services. The AI understands the difference between a no-cool call and a maintenance check. It speaks your customers' language.
+Body: We don't just know tech—we know Trades Home Service. The AI understands the difference between a no-cool call and a maintenance check. It speaks your customers' language.
 ```
 
 ### Value 2: Lightning Fast
@@ -989,7 +989,7 @@ Before publishing, verify:
 - [ ] "The customer never hung up, never called your competitor" appears on every page
 - [ ] No fake testimonials or customer logos
 - [ ] No specific ROI guarantees ($5K/month, etc.)
-- [ ] No "500+ Trades Home Services Pros" or similar unverified claims
+- [ ] No "500+ Trades Home Service Pros" or similar unverified claims
 - [ ] Surge Capture Advantage is included
 - [ ] Live Call Takeover is mentioned (real feature)
 - [ ] No "Free Trial" CTAs (consultative sale model)

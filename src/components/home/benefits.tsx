@@ -47,7 +47,7 @@ export function Benefits() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight"
                     >
-                        Why Trades Home Services Pros Choose CallLock
+                        Why Trades Home Service Pros Choose CallLock
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}

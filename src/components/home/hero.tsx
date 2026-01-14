@@ -49,7 +49,7 @@ export function Hero() {
                         </div>
                     </motion.div>
 
-                    {/* Trades Home Services Technician Image with Notification */}
+                    {/* Trades Home Service Technician Image with Notification */}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -57,9 +57,9 @@ export function Hero() {
                         className="relative flex justify-center lg:justify-end"
                     >
                         <div className="relative w-full max-w-md lg:max-w-sm rounded-[2rem] overflow-hidden shadow-2xl border-4 border-card group">
-                            {/* Trades Home Services Technician Image */}
+                            {/* Trades Home Service Technician Image */}
                             <img
-                                alt="Trades Home Services Technician working on unit"
+                                alt="Trades Home Service Technician working on unit"
                                 className="w-full h-[600px] object-cover"
                                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8BXpSlrIhHLxwmB8mVkKW7LYQS_ihW7USSVFsaMFkJeo7B3tOIxDez2lNIPcCWDUfahw_LaNfk_lYdNqLbV3sav48dDYosVVFFEDWQgBNfDNTqXChAhhzHMgpuIXR91G8KNubCV2ttnS9roNtst8huOONpPhmilA6X_s3lWYeLbQbYwVS_0Ry9GDhHczmrIjDeZoD4rVFl2HK7ggk2vgBxZy9M7-lhvDFbtP4REP4W7kLSzkCrNn516bDDPQ2vEWmRNYAeYNKLr3s"
                             />
