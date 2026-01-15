@@ -40,10 +40,10 @@ export default function ProcessPage() {
             <section className="pt-24 pb-20 lg:pt-32 lg:pb-40 bg-background-light dark:bg-[#1c1a12] relative overflow-hidden">
                 <div className="container mx-auto px-4 text-center relative z-10">
                     <span className="text-primary font-semibold uppercase tracking-widest text-sm mb-6 block">The Process</span>
-                    <h1 className="text-5xl md:text-7xl font-extrabold mb-8 tracking-tight">
+                    <h1 className="text-5xl md:text-7xl font-extrabold mb-8 tracking-tight text-white">
                         From Ringing Phone to <br /><span className="text-primary">Booked Job—Autopilot.</span>
                     </h1>
-                    <p className="text-xl text-muted font-normal max-w-2xl mx-auto">
+                    <p className="text-xl text-white/70 font-normal max-w-2xl mx-auto">
                         See exactly how CallLock transforms missed calls into revenue without you lifting a finger.
                     </p>
                 </div>
