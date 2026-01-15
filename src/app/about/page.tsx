@@ -8,7 +8,7 @@ const values = [
     {
         icon: Target,
         title: "Speed to Lead",
-        description: "In Trades Home Service, the first person to answer wins the job. We make sure that person is always you."
+        description: "In Service, the first person to answer wins the job. We make sure that person is always you."
     },
     {
         icon: ShieldCheck,
@@ -30,7 +30,7 @@ export default function AboutPage() {
                 <div className="container mx-auto px-4 text-center relative z-10">
                     <span className="text-primary font-black uppercase tracking-[0.3em] text-sm mb-6 block">Our Mission</span>
                     <h1 className="text-5xl md:text-7xl font-black mb-8 tracking-tight">
-                        We Help Trades Home Service Pros <br /><span className="text-primary italic">Capture Every Opportunity.</span>
+                        We Help Service Contractor Pros <br /><span className="text-primary italic">Capture Every Opportunity.</span>
                     </h1>
                     <p className="text-xl text-muted font-medium max-w-2xl mx-auto leading-relaxed">
                         CallLock was built with a single goal: to end the missed call graveyard for home services. We believe no job should be lost because you were busy doing the work.
@@ -46,7 +46,7 @@ export default function AboutPage() {
                             <h2 className="text-4xl font-black mb-8 tracking-tight">Why We Built CallLock</h2>
                             <div className="space-y-6 text-lg text-muted font-medium leading-relaxed">
                                 <p>
-                                    We saw a pattern in the Trades Home Service industry: great technicians were losing thousands in revenue every month because they couldn&apos;t answer the phone while on a job.
+                                    We saw a pattern in the Service industry: great technicians were losing thousands in revenue every month because they couldn&apos;t answer the phone while on a job.
                                 </p>
                                 <p>
                                     Existing solutions like answering services were slow, expensive, and often just took messages. Customers don&apos;t want to leave a message—they want to book a job.

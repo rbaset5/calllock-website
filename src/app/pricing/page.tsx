@@ -86,7 +86,7 @@ export default function PricingPage() {
                             <span className="text-primary font-semibold uppercase tracking-widest text-sm mb-6 block">THE MATH</span>
                             <h2 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-tight">One Job <br />Pays for Itself.</h2>
                             <div className="space-y-6 text-xl font-normal leading-relaxed opacity-90">
-                                <p>Your average Trades Home Service job is $500.</p>
+                                <p>Your average HVAC, plumbing, or electrical job is $500.</p>
                                 <p>At $199/month, CallLock pays for itself before you even finish one job.</p>
                                 <p className="text-3xl font-bold text-white">Less than half a job covers your cost. Everything else is pure profit.</p>
                             </div>

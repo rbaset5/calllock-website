@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "@/components/layout/navigation";
@@ -19,7 +20,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "CallLock | Your AI Receptionist Answers When You Can't",
-  description: "Stop missing high-value Trades Home Service jobs. Our AI receptionist answers instantly, qualifies leads, and books appointments 24/7.",
+  description: "Stop missing high-value HVAC, plumbing, and electrical jobs. Our AI receptionist answers instantly, qualifies leads, and books appointments 24/7.",
   icons: {
     icon: "/icon.png",
     apple: "/icon.png",
@@ -33,6 +34,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <Script
+          src="https://unpkg.com/react-grab/dist/index.global.js"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={`${plusJakarta.variable} ${inter.variable} antialiased selection:bg-primary/30 selection:text-foreground`}
       >

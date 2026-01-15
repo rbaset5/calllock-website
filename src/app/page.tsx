@@ -2,7 +2,7 @@ import { Hero } from "@/components/home/hero";
 import { TrustBar } from "@/components/home/trust-bar";
 import { Benefits } from "@/components/home/benefits";
 import { HowItWorks } from "@/components/home/how-it-works";
-import { Comparison } from "@/components/home/comparison";
+import { ComparisonDemoWrapper } from "@/components/home/comparison-demo-wrapper";
 import { SurgeCapture } from "@/components/home/surge-capture";
 import { FeaturesPreview } from "@/components/home/features-preview";
 import { PricingPreview } from "@/components/home/pricing-preview";
@@ -17,7 +17,7 @@ export default function Home() {
       <TrustBar />
       <Benefits />
       <HowItWorks />
-      <Comparison />
+      <ComparisonDemoWrapper />
       <SurgeCapture />
       <FeaturesPreview />
       <PricingPreview />

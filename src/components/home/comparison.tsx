@@ -19,7 +19,7 @@ const withList = [
 
 export function Comparison() {
     return (
-        <section className="py-24 lg:py-32 bg-background-light dark:bg-background">
+        <section className="py-24 lg:py-32">
             <div className="container mx-auto px-4">
                 <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
                     {/* Without CallLock */}
