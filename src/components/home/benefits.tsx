@@ -56,7 +56,7 @@ export function Benefits() {
                         transition={{ delay: 0.1 }}
                         className="text-xl text-muted font-normal"
                     >
-                        Stop playing phone tag. Let AI capture every opportunity while you focus on the job.
+                        Stop playing phone tag and losing jobs to voicemail. Let AI capture every opportunity while you focus on the job.
                     </motion.p>
                 </div>
 
