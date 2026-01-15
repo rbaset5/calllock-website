@@ -26,8 +26,8 @@ export function Navigation() {
         >
             <div className="container mx-auto px-4 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2 group">
-                    <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-primary-foreground group-hover:rotate-12 transition-transform">
-                        <Lock size={24} />
+                    <div className="w-10 h-10 bg-linear-to-br from-[#E0CD67] via-[#C5A520] to-[#8E7618] rounded-xl flex items-center justify-center text-white shadow-lg shadow-primary/20 group-hover:rotate-12 transition-all duration-300">
+                        <Lock size={20} fill="currentColor" />
                     </div>
                     <span className="text-xl font-semibold tracking-tight text-foreground">
                         CallLock
