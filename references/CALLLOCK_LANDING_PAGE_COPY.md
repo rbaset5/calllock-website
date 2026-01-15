@@ -246,7 +246,7 @@ Icon: sms
 
 Headline: Instant SMS
 
-Body: Get notified the moment a call is handled. Full details delivered straight to your phone.
+Body: Get notified the moment a call is handled and booked. Full details delivered straight to your phone.
 ```
 
 ### Feature 4: Mobile App
@@ -644,7 +644,7 @@ Icon: sms
 
 Headline: Instant SMS Notifications
 
-Body: Get notified the moment a call is handled. Full details delivered straight to your phone.
+Body: Get notified the moment a call is handled and booked. Full details delivered straight to your phone.
 ```
 
 ### Feature Card 2: AI That Won't Raise Eyebrows

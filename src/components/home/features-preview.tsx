@@ -16,7 +16,7 @@ const features = [
     {
         icon: MessageSquare,
         title: "Instant SMS",
-        description: "Get notified the moment a call is handled. Full details delivered straight to your phone.",
+        description: "Get notified the moment a call is handled and booked. Full details delivered straight to your phone.",
     },
     {
         icon: Smartphone,
