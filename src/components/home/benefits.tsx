@@ -88,7 +88,7 @@ export function Benefits() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight"
                     >
-                        Why HVAC, Plumbing, and Electrical Contractors <br /> Choose CallLock
+                        Why HVAC, Plumbing, and Electrical Contractors <br /> Choose <span className="text-primary">CallLock</span>
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
