@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Check, ArrowRight, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/layout/footer";
+import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 const features = [
     "AI call answering 24/7",
@@ -39,38 +40,40 @@ export default function PricingPage() {
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="max-w-2xl mx-auto p-10 md:p-14 rounded-[2.5rem] border bg-foreground text-white border-primary shadow-2xl"
+                        transition={{ duration: 0.5 }}
                     >
-                        <div className="text-center mb-10">
-                            <p className="text-white/60 font-medium uppercase tracking-widest text-sm mb-4">Full access to everything</p>
-                            <div className="flex items-baseline justify-center gap-1 mb-4">
-                                <span className="text-5xl font-extrabold">$</span>
-                                <span className="text-8xl font-extrabold tracking-tight">199</span>
-                                <span className="text-white/60 font-medium text-xl">/mo</span>
+                        <BackgroundGradient className="p-10 md:p-14 rounded-[2.5rem] bg-foreground text-white" containerClassName="max-w-2xl mx-auto">
+                            <div className="text-center mb-10">
+                                <p className="text-white/60 font-medium uppercase tracking-widest text-sm mb-4">Full access to everything</p>
+                                <div className="flex items-baseline justify-center gap-1 mb-4">
+                                    <span className="text-5xl font-extrabold">$</span>
+                                    <span className="text-8xl font-extrabold tracking-tight">199</span>
+                                    <span className="text-white/60 font-medium text-xl">/mo</span>
+                                </div>
+                                <p className="text-white/80 font-normal text-lg">
+                                    Cancel anytime. One job pays for itself.
+                                </p>
                             </div>
-                            <p className="text-white/80 font-normal text-lg">
-                                Cancel anytime. One job pays for itself.
-                            </p>
-                        </div>
 
-                        <Button
-                            variant="primary"
-                            className="w-full h-16 text-xl mb-12"
-                        >
-                            Book Your Intro Call <ArrowRight size={22} className="ml-2" />
-                        </Button>
+                            <Button
+                                variant="primary"
+                                className="w-full h-16 text-xl mb-12"
+                            >
+                                Book Your Intro Call <ArrowRight size={22} className="ml-2" />
+                            </Button>
 
-                        <div>
-                            <h4 className="text-sm font-semibold uppercase tracking-widest text-white/40 mb-8 text-center">Everything included</h4>
-                            <div className="grid md:grid-cols-2 gap-4">
-                                {features.map((feature, i) => (
-                                    <div key={i} className="flex items-center gap-3 font-medium text-sm">
-                                        <Check size={18} className="text-primary shrink-0" />
-                                        {feature}
-                                    </div>
-                                ))}
+                            <div>
+                                <h4 className="text-sm font-semibold uppercase tracking-widest text-white/40 mb-8 text-center">Everything included</h4>
+                                <div className="grid md:grid-cols-2 gap-4">
+                                    {features.map((feature, i) => (
+                                        <div key={i} className="flex items-center gap-3 font-medium text-sm">
+                                            <Check size={18} className="text-primary shrink-0" />
+                                            {feature}
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
-                        </div>
+                        </BackgroundGradient>
                     </motion.div>
                 </div>
             </section>
