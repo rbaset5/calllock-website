@@ -31,7 +31,7 @@ export function FAQ() {
         <section className="py-24 lg:py-32 bg-background-light dark:bg-[#0f0e0c]">
             <div className="container mx-auto px-4">
                 <div className="max-w-3xl mx-auto">
-                    <h2 className="text-4xl md:text-5xl font-extrabold mb-16 text-center tracking-tight text-foreground">Questions? Answered.</h2>
+                    <h2 className="text-4xl md:text-5xl font-extrabold mb-16 text-center tracking-tight text-white">Questions? Answered.</h2>
                     <div className="space-y-4">
                         {faqs.map((faq, index) => (
                             <div
