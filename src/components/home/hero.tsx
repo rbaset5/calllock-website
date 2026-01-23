@@ -9,7 +9,7 @@ export function Hero() {
     return (
         <section className="relative pt-12 pb-12 lg:pt-20 lg:pb-16 overflow-hidden">
             {/* Background Decorative Elements */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-[1440px] pointer-events-none -z-10">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-[1440px] pointer-events-none -z-10" aria-hidden="true">
                 <div className="absolute top-0 right-[-10%] w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] opacity-50" />
                 <div className="absolute bottom-[-10%] left-[-10%] w-[400px] h-[400px] bg-primary/10 rounded-full blur-[100px] opacity-30" />
             </div>
@@ -101,7 +101,7 @@ export function Hero() {
                         </div>
 
                         {/* Decorative background glow */}
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 rounded-full blur-3xl -z-10"></div>
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 rounded-full blur-3xl -z-10" aria-hidden="true"></div>
                     </motion.div>
                 </div>
             </div>

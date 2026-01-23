@@ -47,7 +47,7 @@ export default function PricingPage() {
                                 <p className="text-white/60 font-medium uppercase tracking-widest text-sm mb-4">Full access to everything</p>
                                 <div className="flex items-baseline justify-center gap-1 mb-4">
                                     <span className="text-5xl font-extrabold">$</span>
-                                    <span className="text-8xl font-extrabold tracking-tight">199</span>
+                                    <span className="text-8xl font-extrabold tracking-tight">297</span>
                                     <span className="text-white/60 font-medium text-xl">/mo</span>
                                 </div>
                                 <p className="text-white/80 font-normal text-lg">
@@ -87,7 +87,7 @@ export default function PricingPage() {
                             <h2 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-tight">One Job <br />Pays for Itself.</h2>
                             <div className="space-y-6 text-xl font-normal leading-relaxed opacity-90">
                                 <p>Your average HVAC, plumbing, or electrical job is $500.</p>
-                                <p>At $199/month, CallLock pays for itself before you even finish one job.</p>
+                                <p>At $297/month, CallLock pays for itself before you even finish one job.</p>
                                 <p className="text-3xl font-bold text-white">Less than half a job covers your cost. Everything else is pure profit.</p>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ export default function PricingPage() {
                             <div className="space-y-8">
                                 <div className="flex justify-between items-center border-b border-white/10 pb-6">
                                     <span className="text-white/60 font-medium uppercase tracking-wider text-xs">Monthly Cost</span>
-                                    <span className="text-2xl font-bold tracking-tight">$199</span>
+                                    <span className="text-2xl font-bold tracking-tight">$297</span>
                                 </div>
                                 <div className="flex justify-between items-center border-b border-white/10 pb-6">
                                     <span className="text-white/60 font-medium uppercase tracking-wider text-xs">Average Job Value</span>

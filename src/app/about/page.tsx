@@ -30,7 +30,7 @@ export default function AboutPage() {
                 <div className="container mx-auto px-4 text-center relative z-10">
                     <span className="text-primary font-black uppercase tracking-[0.3em] text-sm mb-6 block">Our Mission</span>
                     <h1 className="text-5xl md:text-7xl font-black mb-8 tracking-tight">
-                        We Help Service Contractor Pros <br /><span className="text-primary italic">Capture Every Opportunity.</span>
+                        We Help Pros in the Home Services Trades <br /><span className="text-primary italic">Capture Every Opportunity.</span>
                     </h1>
                     <p className="text-xl text-muted font-medium max-w-2xl mx-auto leading-relaxed">
                         CallLock was built with a single goal: to end the missed call graveyard for home services. We believe no job should be lost because you were busy doing the work.

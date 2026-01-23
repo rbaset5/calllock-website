@@ -10,6 +10,7 @@ import {
     Bell,
     Check
 } from "lucide-react";
+import { LockIcon } from "@/components/ui/lock-icon";
 
 const benefits = [
     {
@@ -78,7 +79,7 @@ export function Benefits() {
     return (
         <section className="py-24 lg:py-32 bg-background relative overflow-hidden">
             {/* Background Accent */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[120px] -z-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[120px] -z-10" aria-hidden="true" />
 
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-20">
@@ -88,7 +89,7 @@ export function Benefits() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight"
                     >
-                        Why HVAC, Plumbing, and Electrical Contractors <br /> Choose <span className="text-primary">CallLock</span>
+                        Why Home Services Trades That Run Jobs In The Field <br /> Choose <span className="text-primary">CallLock</span>
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -113,42 +114,7 @@ export function Benefits() {
                                 transition={{ delay: index * 0.1 }}
                                 className="group p-8 rounded-[2rem] bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5 relative overflow-hidden flex flex-col items-start text-left"
                             >
-                                {/* Icon Container - Lock Style */}
-                                <div className="relative w-16 h-16 mb-8 group-hover:scale-110 transition-transform duration-500">
-                                    {/* Lock Shackle */}
-                                    <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-10 h-8 border-[3px] border-[#C5A520]/60 rounded-t-full -z-10" />
-
-                                    {/* Lock Body */}
-                                    <div className="absolute inset-0 bg-linear-to-br from-[#E0CD67] via-[#C5A520] to-[#8E7618] rounded-2xl shadow-lg shadow-primary/20 flex items-center justify-center overflow-hidden">
-                                        {/* Metallic Shine */}
-                                        <div className="absolute inset-0 bg-linear-to-tr from-white/30 via-transparent to-transparent opacity-50" />
-
-                                        <Icon
-                                            size={30}
-                                            className="text-white drop-shadow-lg relative z-10"
-                                            strokeWidth={2}
-                                        />
-
-                                        {/* Animated Shine Streak */}
-                                        <motion.div
-                                            animate={{
-                                                x: ["-100%", "100%"]
-                                            }}
-                                            transition={{
-                                                duration: 3,
-                                                repeat: Infinity,
-                                                ease: "linear",
-                                                repeatDelay: 2
-                                            }}
-                                            className="absolute inset-0 w-1/2 h-full bg-linear-to-r from-transparent via-white/20 to-transparent -skew-x-12"
-                                        />
-                                    </div>
-
-                                    {/* Keyhole Symbol */}
-                                    <div className="absolute bottom-1 right-1 w-4 h-4 bg-black/20 rounded-full flex items-center justify-center backdrop-blur-sm">
-                                        <div className="w-1 h-2 bg-white/40 rounded-full" />
-                                    </div>
-                                </div>
+                                <LockIcon icon={Icon} size="md" className="mb-8 group-hover:scale-110" />
 
                                 <h3 className="text-2xl font-bold mb-4 tracking-tight group-hover:text-primary transition-colors duration-300">
                                     {benefit.title}
@@ -170,7 +136,7 @@ export function Benefits() {
                                 </ul>
 
                                 {/* Subtle background decoration */}
-                                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/10 transition-colors duration-500" />
+                                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/10 transition-colors duration-500" aria-hidden="true" />
                             </motion.div>
                         );
                     })}

@@ -100,7 +100,7 @@ export default function FeaturesPage() {
             <section className="py-24 lg:py-40">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-20">
-                        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">Why Service Contractor Pros Switch</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">Why Pros in the Home Services Trades Switch</h2>
                     </div>
 
                     <div className="max-w-5xl mx-auto overflow-hidden rounded-3xl border border-border shadow-2xl">

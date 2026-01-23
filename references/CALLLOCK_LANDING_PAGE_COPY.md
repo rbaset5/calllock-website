@@ -219,7 +219,7 @@ CTA 2: Book Your Intro Call →
 
 **Section Header:**
 ```
-Headline: Power Features for Serious Pros
+Headline: Power Features for Serious Pros in the Home Services Trades
 ```
 
 ### Feature 1: Live Call Takeover

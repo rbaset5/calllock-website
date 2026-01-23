@@ -34,12 +34,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <Script
-          src="https://unpkg.com/react-grab/dist/index.global.js"
-          strategy="afterInteractive"
-        />
-      </head>
       <body
         className={`${plusJakarta.variable} ${inter.variable} antialiased selection:bg-primary/30 selection:text-foreground`}
       >
@@ -47,6 +41,13 @@ export default function RootLayout({
         <main className="min-h-screen pt-20">
           {children}
         </main>
+{process.env.NODE_ENV === "development" && (
+          <Script
+            src="//unpkg.com/react-grab/dist/index.global.js"
+            crossOrigin="anonymous"
+            strategy="beforeInteractive"
+          />
+        )}
       </body>
     </html>
   );

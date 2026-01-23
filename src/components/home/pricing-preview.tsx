@@ -38,10 +38,9 @@ export function PricingPreview() {
                             {/* Left Column: Price and CTA */}
                             <div className="pb-12 text-center md:pb-0 md:pr-12">
                                 <h3 className="text-2xl font-semibold text-white">CallLock Pro</h3>
-                                <p className="mt-2 text-lg text-white/70">For your business of any size</p>
 
                                 <span className="mb-6 mt-12 inline-block text-6xl font-bold text-white">
-                                    <span className="text-4xl">$</span>199
+                                    <span className="text-4xl">$</span>297
                                     <span className="text-xl font-normal text-white/60">/mo</span>
                                 </span>
 
