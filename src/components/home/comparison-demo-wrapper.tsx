@@ -2,7 +2,6 @@
 
 import { SineWaveDots } from "@/components/ui/sine-wave-dots";
 import { Comparison } from "./comparison";
-import { TryDemo } from "./try-demo";
 
 export function ComparisonDemoWrapper() {
     return (
@@ -20,7 +19,6 @@ export function ComparisonDemoWrapper() {
 
             <div className="relative z-10">
                 <Comparison />
-                <TryDemo />
             </div>
         </div>
     );

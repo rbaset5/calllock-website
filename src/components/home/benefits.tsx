@@ -89,7 +89,7 @@ export function Benefits() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight"
                     >
-                        Why Home Services Trades That Run Jobs In The Field <br /> Choose <span className="text-primary">CallLock</span>
+                        Why Home Services Trades Choose <span className="bg-linear-to-br from-gold-light via-gold-medium to-gold-dark bg-clip-text text-transparent">CallLock</span>
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}

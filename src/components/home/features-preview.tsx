@@ -31,7 +31,7 @@ export function FeaturesPreview() {
         <section className="py-24 lg:py-32 bg-background-light">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-20">
-                    <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-foreground">Power Features for Serious Pros in the Home Services Trades</h2>
+                    <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-foreground">Power Features for Serious HVAC, Plumbing, Electrical Contractors</h2>
                 </div>
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
