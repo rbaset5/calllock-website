@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   title: "CallLock | Your AI Receptionist Answers When You Can't",
   description: "Stop missing high-value HVAC, plumbing, and electrical jobs. Our AI receptionist answers instantly, qualifies leads, and books appointments 24/7.",
   icons: {
-    icon: "/icon.png",
-    apple: "/icon.png",
+    icon: "/calllock-logo-ink.png",
+    apple: "/calllock-logo-ink.png",
   },
 };
 
