@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Plus_Jakarta_Sans, Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, Inter, Archivo_Black, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "@/components/layout/navigation";
 
@@ -14,7 +14,21 @@ const plusJakarta = Plus_Jakarta_Sans({
 const inter = Inter({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+const archivoBlack = Archivo_Black({
+  variable: "--font-archivo-black",
+  subsets: ["latin"],
+  weight: ["400"],
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
   display: "swap",
 });
 
@@ -35,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${plusJakarta.variable} ${inter.variable} antialiased selection:bg-primary/30 selection:text-foreground`}
+        className={`${plusJakarta.variable} ${inter.variable} ${archivoBlack.variable} ${jetbrainsMono.variable} antialiased selection:bg-primary/30 selection:text-foreground`}
       >
         <Navigation />
         <main className="min-h-screen pt-20">
@@ -52,4 +66,3 @@ export default function RootLayout({
     </html>
   );
 }
-

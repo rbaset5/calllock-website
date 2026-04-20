@@ -1,29 +1,25 @@
-import { Hero } from "@/components/home/hero";
-import { TrustBar } from "@/components/home/trust-bar";
-import { Benefits } from "@/components/home/benefits";
-import { HowItWorks } from "@/components/home/how-it-works";
-import { ComparisonDemoWrapper } from "@/components/home/comparison-demo-wrapper";
-import { SurgeCapture } from "@/components/home/surge-capture";
-import { FeaturesPreview } from "@/components/home/features-preview";
-import { PricingPreview } from "@/components/home/pricing-preview";
-import { FAQ } from "@/components/home/faq";
-import { FinalCTA } from "@/components/home/final-cta";
-import { Footer } from "@/components/layout/footer";
+import { MarketingNav } from "@/components/marketing/nav";
+import { MarketingHero } from "@/components/marketing/hero";
+import { MarketingHowItWorks } from "@/components/marketing/how-it-works";
+import { MarketingProofStrip } from "@/components/marketing/proof-strip";
+import { MarketingTestimonial } from "@/components/marketing/testimonial";
+import { MarketingPricing } from "@/components/marketing/pricing";
+import { MarketingFooter } from "@/components/marketing/footer";
 
+// Mobile-first responsive port of the HTML marketing artifact.
+// Desktop visitors are rewritten to /marketing.html by middleware.ts.
+// The -mt-20 cancels the global <main> pt-20 from the root layout,
+// which only exists for the gold-themed subpages' fixed Navigation.
 export default function Home() {
   return (
-    <div className="flex flex-col w-full">
-      <Hero />
-      <TrustBar />
-      <Benefits />
-      <HowItWorks />
-      <ComparisonDemoWrapper />
-      <SurgeCapture />
-      <FeaturesPreview />
-      <PricingPreview />
-      <FAQ />
-      <FinalCTA />
-      <Footer />
+    <div className="marketing -mt-20">
+      <MarketingNav />
+      <MarketingHero />
+      <MarketingHowItWorks />
+      <MarketingProofStrip />
+      <MarketingTestimonial />
+      <MarketingPricing />
+      <MarketingFooter />
     </div>
   );
 }

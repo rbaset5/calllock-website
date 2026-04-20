@@ -116,3 +116,40 @@ a:focus-visible,
     scroll-behavior: auto !important;
   }
 }
+
+/* ============================================================
+   Marketing scope — artifact aesthetic for calllock.co homepage
+   Scoped so subpages keep their gold/dark theme.
+   ============================================================ */
+.marketing {
+  --mk-bg:             #f8f8f5;
+  --mk-bg-alt:         #eef1eb;
+  --mk-bg-dark:        #0e0f0c;
+  --mk-fg:             #0e0f0c;
+  --mk-fg-2:           #454745;
+  --mk-fg-3:           #868685;
+  --mk-green:          #9fe870;
+  --mk-green-deep:     #163300;
+  --mk-green-mint:     #e2f6d5;
+  --mk-green-ink:      #054d28;
+  --mk-missed:         #d03238;
+  --mk-border:         rgba(14, 15, 12, 0.12);
+
+  --mk-font-display:   var(--font-archivo-black), "Archivo Black",
+                       "Inter", system-ui, sans-serif;
+  --mk-font-body:      var(--font-body), "Inter", system-ui, sans-serif;
+  --mk-font-mono:      var(--font-jetbrains-mono), ui-monospace, monospace;
+
+  background: var(--mk-bg);
+  color: var(--mk-fg);
+  font-family: var(--mk-font-body);
+}
+
+.marketing h1,
+.marketing h2,
+.marketing h3,
+.marketing .mk-display {
+  font-family: var(--mk-font-display);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
