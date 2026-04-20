@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 
 export function Navigation() {
+    const pathname = usePathname();
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
@@ -16,6 +18,9 @@ export function Navigation() {
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+    // The marketing homepage (desktop artifact + mobile port) ships its own nav.
+    if (pathname === "/") return null;
 
     return (
         <nav
