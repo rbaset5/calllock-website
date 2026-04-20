@@ -43,7 +43,7 @@ export function MarketingHero() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr_1.3fr] gap-5 items-stretch md:items-end">
           <StepperField
-            label="Missed calls + voicemails this week"
+            label="Missed calls this week"
             value={missed}
             display={missed.toString()}
             onDec={() => setMissed(Math.max(0, missed - 1))}
