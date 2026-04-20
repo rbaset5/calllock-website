@@ -4,6 +4,7 @@ import { MarketingHowItWorks } from "@/components/marketing/how-it-works";
 import { MarketingProofStrip } from "@/components/marketing/proof-strip";
 import { MarketingTestimonial } from "@/components/marketing/testimonial";
 import { MarketingPricing } from "@/components/marketing/pricing";
+import { MarketingSchedule } from "@/components/marketing/schedule";
 import { MarketingFooter } from "@/components/marketing/footer";
 
 // Mobile-first responsive port of the HTML marketing artifact.
@@ -19,6 +20,7 @@ export default function Home() {
       <MarketingProofStrip />
       <MarketingTestimonial />
       <MarketingPricing />
+      <MarketingSchedule />
       <MarketingFooter />
     </div>
   );
