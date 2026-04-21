@@ -61,7 +61,7 @@ export function MarketingSchedule() {
             at {selectedTime}.
           </h3>
           <div className="text-base font-medium text-[#454745] leading-[1.45] max-w-[440px] mx-auto mb-6">
-            A calendar invite is on its way to your inbox. Rashid will call from (512) 555-2121 — save it so it doesn&rsquo;t go to voicemail.
+            A calendar invite is on its way to your inbox. Rashid will call from (248) 739-1087 — save it so it doesn&rsquo;t go to voicemail.
           </div>
           <button
             onClick={() => {
