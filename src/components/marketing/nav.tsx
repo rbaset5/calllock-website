@@ -22,9 +22,12 @@ export function MarketingNav() {
           <a href="#proof" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">Proof</a>
           <a href="#pricing" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">Pricing</a>
           <a href="#login" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">Log in</a>
-          <button className="font-semibold text-[15px] bg-[#0e0f0c] text-[#f8f8f5] rounded-full px-[18px] py-2.5 border-0 cursor-pointer hover:scale-[1.02] transition-transform">
+          <a
+            href="#schedule"
+            className="font-semibold text-[15px] bg-[#0e0f0c] text-[#f8f8f5] rounded-full px-[18px] py-2.5 no-underline hover:scale-[1.02] transition-transform inline-block"
+          >
             Start catching calls
-          </button>
+          </a>
         </div>
         <a
           href="#pricing"
