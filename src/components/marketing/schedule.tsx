@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
 
 const TIMES = [
@@ -96,10 +97,15 @@ export function MarketingSchedule() {
       <div className="bg-white rounded-[24px] sm:rounded-[32px] shadow-[0_0_0_1px_rgba(14,15,12,0.10)] overflow-hidden grid grid-cols-1 md:grid-cols-[280px_1fr] lg:grid-cols-[320px_1fr]">
         {/* Host column */}
         <div className="bg-[#0e0f0c] text-[#f8f8f5] p-7 sm:p-8 md:p-[30px] md:px-[30px] flex flex-col">
-          <div className="w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-full bg-[#9fe870] text-[#163300] flex items-center justify-center mb-4 md:mb-[18px]">
-            <span className="font-[family-name:var(--mk-font-display)] font-black text-[22px] sm:text-[26px] tracking-[-0.03em]">
-              RB
-            </span>
+          <div className="w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-full overflow-hidden mb-4 md:mb-[18px] ring-2 ring-[#9fe870]">
+            <Image
+              src="/rashid-baset.jpg"
+              alt="Rashid Baset, founder of CallLock"
+              width={72}
+              height={72}
+              className="w-full h-full object-cover"
+              priority={false}
+            />
           </div>
           <div className="font-bold text-[11px] tracking-[0.14em] uppercase text-[#9fe870] mb-1">
             Hosted by
