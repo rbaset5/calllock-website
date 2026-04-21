@@ -44,14 +44,14 @@ export function MarketingFooter() {
               Company
             </div>
             <a href="#" className="text-sm font-semibold text-[#0e0f0c] no-underline hover:opacity-70">About</a>
-            <a href="#" className="text-sm font-semibold text-[#0e0f0c] no-underline hover:opacity-70">Support &middot; (512) 555-2121</a>
+            <a href="tel:+12487391087" className="text-sm font-semibold text-[#0e0f0c] no-underline hover:opacity-70">Support &middot; (248) 739-1087</a>
             <a href="#" className="text-sm font-semibold text-[#0e0f0c] no-underline hover:opacity-70">Terms</a>
           </div>
         </div>
       </div>
       <div className="max-w-[1100px] mx-auto mt-8 sm:mt-10 pt-5 border-t border-[rgba(14,15,12,0.08)] flex flex-col sm:flex-row justify-between gap-2">
         <span className="text-xs font-medium text-[#868685]">&copy; 2026 CallLock, Inc.</span>
-        <span className="text-xs font-medium text-[#868685]">Made in Austin, TX.</span>
+        <span className="text-xs font-medium text-[#868685]">Made in Detroit, MI.</span>
       </div>
     </footer>
   );
