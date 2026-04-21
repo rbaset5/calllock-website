@@ -13,7 +13,7 @@ type Tier = {
 const tiers: Tier[] = [
   {
     name: "Solo Operator",
-    price: 149,
+    price: 349,
     forWho: "One truck. One phone. One shot at every call.",
     includesLabel: "What\u2019s included",
     includes: [
@@ -30,7 +30,7 @@ const tiers: Tier[] = [
   },
   {
     name: "Small Crew",
-    price: 399,
+    price: 499,
     popular: true,
     forWho: "2\u20135 techs. Multiple calls hitting at once. No time to call back.",
     includesLabel: "Everything in Solo Operator, plus",
