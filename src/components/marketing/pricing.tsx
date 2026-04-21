@@ -24,7 +24,7 @@ const tiers: Tier[] = [
       "Mobile app to call back with one tap",
       "Works after hours, weekends, holidays",
     ],
-    math: "One saved job (~$500) more than pays for your month. Miss one more call to voicemail and you\u2019ve already lost more than this costs.",
+    math: "One $500 call covers two months of CallLock. Lose one to voicemail and a single missed call cost more than the whole tier.",
     quote: "Your AI receptionist answers when you can\u2019t.",
     cta: "Start Capturing Calls",
   },
