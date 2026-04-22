@@ -33,11 +33,26 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CallLock | Your AI Receptionist Answers When You Can't",
-  description: "Stop missing high-value HVAC, plumbing, and electrical jobs. Our AI receptionist answers instantly, qualifies leads, and books appointments 24/7.",
+  title: "CallLock — Catch the calls you miss.",
+  description: "Your AI receptionist answers when you can't. Books the job, texts you the details in 30 seconds.",
   icons: {
-    icon: "/calllock-logo-ink.png",
-    apple: "/calllock-logo-ink.png",
+    icon: "/calllock-mark.png",
+    apple: "/calllock-mark.png",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://calllock.co/",
+    title: "CallLock — Catch the calls you miss.",
+    description: "Your AI receptionist answers when you can't. Books the job, texts you the details in 30 seconds.",
+    images: [
+      { url: "/calllock-og.png", width: 1200, height: 1200, alt: "CallLock" },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CallLock — Catch the calls you miss.",
+    description: "Your AI receptionist answers when you can't. Books the job, texts you the details in 30 seconds.",
+    images: ["/calllock-og.png"],
   },
 };
 
