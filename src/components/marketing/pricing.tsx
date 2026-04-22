@@ -12,76 +12,81 @@ type Tier = {
 
 const tiers: Tier[] = [
   {
-    name: "Solo Operator",
+    name: "Recovery",
     price: 197,
-    forWho: "One truck. One phone. One shot at every call.",
+    forWho:
+      "Solo and owner-operated shops. One phone, one calendar, every call caught before it turns into voicemail.",
     includesLabel: "What\u2019s included",
     includes: [
-      "AI receptionist answers every missed call — 24/7",
-      "Unlimited simultaneous calls (no busy signals, ever)",
-      "Instant SMS with caller\u2019s name, number, issue, and location",
-      "Smart lead capture — never lose a number again",
-      "Mobile app to call back with one tap",
-      "Works after hours, weekends, holidays",
+      "24/7 live pickup on every missed call that routes to CallLock",
+      "Books the job straight to your Google or iCal calendar",
+      "30-second SMS with caller name, number, issue, location, booked slot",
+      "Spam and sales-call filtering",
+      "Service-area check before booking",
+      "Emergency triage routes actively leaking jobs to a phone alert",
+      "Estimate ranges on the call, from your pricing",
+      "Cell auto-forward catches the calls you drop mid-job",
+      "Live transcripts and recordings (30-day retention)",
+      "Unlimited simultaneous calls, no busy signals",
+      "72-hour done-for-you setup, no config screens",
     ],
-    math: "One $500 call pays for 2+ months. Miss one to voicemail and you\u2019ve lost more than the tier costs twice over.",
+    math: "One $500 service call pays for 2+ months. Miss one to voicemail and the tier covered itself twice.",
     quote: "Your AI receptionist answers when you can\u2019t.",
-    cta: "Start Capturing Calls",
+    cta: "Start Catching Calls",
   },
   {
-    name: "Small Crew",
-    price: 497,
+    name: "Recovery Pro",
+    price: 397,
     popular: true,
-    forWho: "2\u20135 techs. Multiple calls hitting at once. No time to call back.",
-    includesLabel: "Everything in Solo Operator, plus",
+    forWho:
+      "2 to 4 truck shops. Calls hitting faster than one person can read the SMS in time.",
+    includesLabel: "Everything in Recovery, plus",
     includes: [
-      "Full AI qualification (service type, urgency, service area check)",
-      "Direct booking to your calendar — no callbacks, no tag",
-      "Velocity Triage app — Hazards, Recovery, Revenue, Logistics auto-tagged",
-      "SMS reply commands (1=Called, 4=Booked) — handle leads from anywhere",
-      "Maps + route planning inside the app",
-      "Snooze, notes, booking modal — all in your pocket",
-      "Handles Monday morning surges and storm rushes at once",
+      "Unlimited call-recording retention",
+      "SMS reply commands so you can mark leads called or booked from the truck",
+      "Route planning and maps inside the mobile app",
+      "Snooze, notes, and in-app booking modal for rescheduling",
+      "Same AI, same features, more capacity for busier shops",
+      "Handles Monday morning surges and storm rushes in parallel",
     ],
-    math: "Your average ticket is $500. Book one extra job a month and you\u2019re already in the green. Book two and you\u2019re 2\u00d7 up. One Monday-morning surge covers the quarter.",
+    math: "Book one extra job a month and you\u2019re ahead. Book two and you\u2019re 2\u00d7 up. At a $500 average ticket, the math holds from your first busy week.",
     quote: "Stop thinking. Start dispatching.",
-    cta: "Get Booked Automatically",
+    cta: "Start Booking More Jobs",
   },
   {
-    name: "Growing Shop",
-    price: 997,
-    forWho: "5\u201315 techs. Scaling fast. Every missed opportunity costs real money.",
-    includesLabel: "Everything in Small Crew, plus",
+    name: "Recovery Scale",
+    price: 797,
+    forWho:
+      "Shops with multiple phone lines, multiple locations, or a CRM you already run your business in.",
+    includesLabel: "Everything in Recovery Pro, plus",
     includes: [
-      "Automated review requests after every completed job (Google + Facebook)",
-      "Win-back campaigns for leads that didn\u2019t book the first time",
-      "Custom AI scripts — match your shop\u2019s voice, pricing rules, service areas",
-      "CRM integrations (ServiceTitan, Housecall Pro, Jobber)",
-      "Analytics dashboard — call volume, conversion, recovered revenue, source",
-      "Priority support with dedicated onboarding",
-      "Multi-line routing — different numbers, different workflows",
-      "After-hours emergency routing for true HAZARD calls",
+      "Multi-line routing: different numbers, different triage logic (HVAC line vs. drain line, retail vs. commercial, brand A vs. brand B)",
+      "Custom AI scripts for unusual pricing, multi-brand shops, or per-service-line dispatch",
+      "CRM sync into ServiceTitan, Housecall Pro, or Jobber",
+      "Recovery analytics: call volume, booked vs. unbooked, revenue recovered by source",
+      "Unlimited bookings, no ceiling",
+      "Dedicated onboarding and priority support",
     ],
-    math: "At 5+ techs, 15\u201325 calls/week go to voicemail. At $500 avg ticket, that\u2019s $30K\u2013$50K/mo at risk. Recover even 10% and this tier is a rounding error on ROI.",
+    math: "Your LSA budget paid for those calls. Missed ones walk to whoever picks up first. Scale stops the bleed.",
     quote: "The customer never hung up, never called your competitor.",
-    cta: "Scale Without Hiring",
+    cta: "Start Free Trial",
   },
 ];
 
 export function MarketingPricing() {
   return (
     <section id="pricing" className="max-w-[1240px] mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-24 pb-20 sm:pb-24">
-      <div className="mb-8 sm:mb-10">
+      <div className="mb-8 sm:mb-10 max-w-[780px]">
         <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-3.5">
           Pricing
         </div>
-        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-6xl lg:text-[64px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-3.5 text-balance">
-          Pick the plan that
-          <br />
-          matches your shop.
+        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[34px] sm:text-5xl md:text-[56px] lg:text-[64px] leading-[0.95] tracking-[-0.02em] text-[#0e0f0c] mb-4 text-balance">
+          Every call that rolls to voicemail is a job walking to your competitor.
         </h2>
-        <div className="text-base sm:text-lg font-medium text-[#454745] max-w-[580px] leading-[1.4]">
-          Flat monthly. Month-to-month. No per-call fees, no per-minute gotchas.
+        <div className="text-base sm:text-lg font-medium text-[#454745] leading-[1.45]">
+          Most shops we audit are losing $3,000 to $12,000 a month this way.
+          CallLock catches every call, books the job straight to your calendar,
+          texts you in 30 seconds. Live in 72 hours. Starts at $197/mo.
         </div>
       </div>
 
@@ -92,7 +97,7 @@ export function MarketingPricing() {
       </div>
 
       <div className="text-sm font-medium text-[#868685] mt-8 sm:mt-10 text-center px-4">
-        14-day free trial on every plan. 48 hour setup. Cancel from the app.
+        14-day free trial on every plan. 72-hour done-for-you setup. Cancel from the app.
       </div>
     </section>
   );
@@ -216,6 +221,13 @@ function TierCard({ t }: { t: Tier }) {
       >
         {t.cta} — ${t.price}/mo
       </button>
+      <div
+        className={`text-[11px] font-medium text-center mt-1 ${
+          pop ? "text-[#b6b8b4]" : "text-[#868685]"
+        }`}
+      >
+        14-day free trial. No card required.
+      </div>
     </div>
   );
 }
