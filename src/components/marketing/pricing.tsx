@@ -13,7 +13,7 @@ type Tier = {
 const tiers: Tier[] = [
   {
     name: "Solo Operator",
-    price: 249,
+    price: 399,
     forWho: "One truck. One phone. One shot at every call.",
     includesLabel: "What\u2019s included",
     includes: [
@@ -24,13 +24,13 @@ const tiers: Tier[] = [
       "Mobile app to call back with one tap",
       "Works after hours, weekends, holidays",
     ],
-    math: "One $500 call covers two months of CallLock. Lose one to voicemail and a single missed call cost more than the whole tier.",
+    math: "One $500 call more than covers your month of CallLock. Lose one to voicemail and a single missed call cost more than the whole tier.",
     quote: "Your AI receptionist answers when you can\u2019t.",
     cta: "Start Capturing Calls",
   },
   {
     name: "Small Crew",
-    price: 499,
+    price: 649,
     popular: true,
     forWho: "2\u20135 techs. Multiple calls hitting at once. No time to call back.",
     includesLabel: "Everything in Solo Operator, plus",
@@ -43,13 +43,13 @@ const tiers: Tier[] = [
       "Snooze, notes, booking modal — all in your pocket",
       "Handles Monday morning surges and storm rushes at once",
     ],
-    math: "Your average ticket is $500. Book one extra job per month and you\u2019re already in the green. Book two and you\u2019re 100%+ up before lunch.",
+    math: "Your average ticket is $500. Book two extra jobs a month and you\u2019re already 50%+ ahead. One Monday-morning surge covers the quarter.",
     quote: "Stop thinking. Start dispatching.",
     cta: "Get Booked Automatically",
   },
   {
     name: "Growing Shop",
-    price: 799,
+    price: 949,
     forWho: "5\u201315 techs. Scaling fast. Every missed opportunity costs real money.",
     includesLabel: "Everything in Small Crew, plus",
     includes: [
