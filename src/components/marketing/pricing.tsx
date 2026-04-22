@@ -22,14 +22,13 @@ const tiers: Tier[] = [
       "Books the job straight to your Google or iCal calendar",
       "30-second SMS with caller name, number, issue, location, booked slot",
       "Spam and sales-call filtering",
-      "Service-area check before booking (won\u2019t book a job outside your coverage)",
-      "Emergency triage: \u201cwater actively leaking\u201d calls you. Routine bookings go silent to the calendar.",
+      "Service-area check before booking",
+      "Emergency triage routes actively leaking jobs to a phone alert",
       "Estimate ranges on the call, from your pricing",
-      "Cell auto-forward: your mobile voicemail gets caught too",
-      "Live transcripts and recordings on every call (30-day retention)",
+      "Cell auto-forward catches the calls you drop mid-job",
+      "Live transcripts and recordings (30-day retention)",
       "Unlimited simultaneous calls, no busy signals",
       "72-hour done-for-you setup, no config screens",
-      "Up to ~15 bookings per month",
     ],
     math: "One $500 service call pays for 2+ months. Miss one to voicemail and the tier covered itself twice.",
     quote: "Your AI receptionist answers when you can\u2019t.",
@@ -43,12 +42,12 @@ const tiers: Tier[] = [
       "2 to 4 truck shops. Calls hitting faster than one person can read the SMS in time.",
     includesLabel: "Everything in Recovery, plus",
     includes: [
-      "Up to ~40 bookings per month (from 15)",
       "Unlimited call-recording retention",
       "SMS reply commands so you can mark leads called or booked from the truck",
       "Route planning and maps inside the mobile app",
       "Snooze, notes, and in-app booking modal for rescheduling",
-      "Same AI, same features, more capacity",
+      "Same AI, same features, more capacity for busier shops",
+      "Handles Monday morning surges and storm rushes in parallel",
     ],
     math: "Book one extra job a month and you\u2019re ahead. Book two and you\u2019re 2\u00d7 up. At a $500 average ticket, the math holds from your first busy week.",
     quote: "Stop thinking. Start dispatching.",
@@ -63,12 +62,12 @@ const tiers: Tier[] = [
     includes: [
       "Multi-line routing: different numbers, different triage logic (HVAC line vs. drain line, retail vs. commercial, brand A vs. brand B)",
       "Custom AI scripts for unusual pricing, multi-brand shops, or per-service-line dispatch",
-      "CRM sync into ServiceTitan, Housecall Pro, or Jobber (recovered bookings write straight into the CRM you already use)",
+      "CRM sync into ServiceTitan, Housecall Pro, or Jobber",
       "Recovery analytics: call volume, booked vs. unbooked, revenue recovered by source",
       "Unlimited bookings, no ceiling",
       "Dedicated onboarding and priority support",
     ],
-    math: "Your LSA budget paid for those calls. Missed ones walk to whoever picks up first. Scale plugs the leak.",
+    math: "Your LSA budget paid for those calls. Missed ones walk to whoever picks up first. Scale stops the bleed.",
     quote: "The customer never hung up, never called your competitor.",
     cta: "Start Free Trial",
   },
@@ -98,7 +97,7 @@ export function MarketingPricing() {
       </div>
 
       <div className="text-sm font-medium text-[#868685] mt-8 sm:mt-10 text-center px-4">
-        14-day free trial on every plan. 48-hour done-for-you setup. Cancel from the app.
+        14-day free trial on every plan. 72-hour done-for-you setup. Cancel from the app.
       </div>
     </section>
   );
