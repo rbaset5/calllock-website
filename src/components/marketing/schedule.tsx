@@ -27,9 +27,9 @@ export function MarketingSchedule() {
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
   const [confirmed, setConfirmed] = useState(false);
 
-  // 14-day window starting tomorrow (anchored to the render date at mount).
+  // 14-day window starting tomorrow (recomputed at mount each page load).
   const days = useMemo(() => {
-    const today = new Date(2026, 3, 20); // matches desktop artifact anchor
+    const today = new Date();
     const out: Date[] = [];
     for (let i = 1; i <= 14; i++) {
       const d = new Date(today);

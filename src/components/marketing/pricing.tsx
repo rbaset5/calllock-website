@@ -212,15 +212,16 @@ function TierCard({ t }: { t: Tier }) {
         <div>{t.math}</div>
       </div>
 
-      <button
-        className={`text-[15px] font-bold border-0 rounded-full py-3.5 px-4 cursor-pointer mt-1 text-center tracking-[-0.005em] active:scale-[0.98] transition-transform ${
+      <a
+        href="#schedule"
+        className={`text-[15px] font-bold border-0 rounded-full py-3.5 px-4 cursor-pointer mt-1 text-center tracking-[-0.005em] active:scale-[0.98] transition-transform no-underline inline-block ${
           pop
             ? "bg-[#9fe870] text-[#163300]"
             : "bg-[#0e0f0c] text-[#f8f8f5]"
         }`}
       >
         {t.cta} — ${t.price}/mo
-      </button>
+      </a>
       <div
         className={`text-[11px] font-medium text-center mt-1 ${
           pop ? "text-[#b6b8b4]" : "text-[#868685]"
