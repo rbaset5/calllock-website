@@ -29,6 +29,7 @@ const tiers: Tier[] = [
       "Live transcripts and recordings (30-day retention)",
       "Unlimited simultaneous calls, no busy signals",
       "72-hour done-for-you setup, no config screens",
+      "Sized for ~15 bookings/month",
     ],
     math: "One $500 service call pays for 2+ months. Miss one to voicemail and the tier covered itself twice.",
     quote: "Your AI receptionist answers when you can\u2019t.",
@@ -48,6 +49,7 @@ const tiers: Tier[] = [
       "Snooze, notes, and in-app booking modal for rescheduling",
       "Same AI, same features, more capacity for busier shops",
       "Handles Monday morning surges and storm rushes in parallel",
+      "Sized for ~40 bookings/month",
     ],
     math: "Book one extra job a month and you\u2019re ahead. Book two and you\u2019re 2\u00d7 up. At a $500 average ticket, the math holds from your first busy week.",
     quote: "Stop thinking. Start dispatching.",
@@ -96,8 +98,13 @@ export function MarketingPricing() {
         ))}
       </div>
 
-      <div className="text-sm font-medium text-[#868685] mt-8 sm:mt-10 text-center px-4">
-        14-day free trial on every plan. 72-hour done-for-you setup. Cancel from the app.
+      <div className="text-center px-4 mt-8 sm:mt-10 space-y-1">
+        <div className="text-sm font-semibold text-[#0e0f0c]">
+          Outgrow your tier? We auto-upgrade. We never drop a call.
+        </div>
+        <div className="text-sm font-medium text-[#868685]">
+          14-day free trial on every plan. 72-hour done-for-you setup. Cancel from the app.
+        </div>
       </div>
     </section>
   );
