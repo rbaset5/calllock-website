@@ -49,7 +49,7 @@ const tiers: Tier[] = [
   },
   {
     name: "Growing Shop",
-    price: 899,
+    price: 999,
     forWho: "5\u201315 techs. Scaling fast. Every missed opportunity costs real money.",
     includesLabel: "Everything in Small Crew, plus",
     includes: [
