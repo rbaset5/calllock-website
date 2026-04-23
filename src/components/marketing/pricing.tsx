@@ -146,7 +146,7 @@ function TierCard({ t }: { t: Tier }) {
         </span>
       </div>
 
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1 md:min-h-[104px]">
         <div
           className={`text-[10px] font-extrabold tracking-[0.14em] uppercase ${
             pop ? "text-[#9fe870]" : "text-[#054d28]"
@@ -172,7 +172,7 @@ function TierCard({ t }: { t: Tier }) {
       >
         {t.includesLabel}
       </div>
-      <ul className="list-none m-0 p-0 flex flex-col gap-2.5 flex-1">
+      <ul className="list-none m-0 p-0 flex flex-col gap-2.5">
         {t.includes.map((i) => (
           <li
             key={i}
