@@ -8,11 +8,11 @@ const scenarios = [
 export function MarketingProofStrip() {
   return (
     <section id="proof" className="max-w-[1100px] mx-auto px-4 sm:px-6 py-10 sm:py-12 md:py-16">
-      <div className="mb-8 sm:mb-10 max-w-[820px]">
-        <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-3.5">
+      <div className="mb-12 sm:mb-14 md:mb-16 max-w-[820px]">
+        <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-5">
           How the math works
         </div>
-        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[32px] sm:text-5xl md:text-[56px] leading-[0.95] tracking-[-0.02em] text-[#0e0f0c] mb-3.5 text-balance">
+        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[32px] sm:text-5xl md:text-[56px] leading-[0.95] tracking-[-0.02em] text-[#0e0f0c] mb-6 sm:mb-7 text-balance">
           Missed calls this week
           <br />
           <span className="text-[#868685]">&times;</span> your avg job ticket
@@ -22,7 +22,7 @@ export function MarketingProofStrip() {
             revenue on the floor.
           </span>
         </h2>
-        <div className="text-base sm:text-[17px] font-medium text-[#454745] leading-[1.4] max-w-[640px]">
+        <div className="text-base sm:text-[17px] font-medium text-[#454745] leading-[1.5] max-w-[640px]">
           Not a guess. Pull your missed-call log and do the multiplication.
           Most shops are shocked by the answer. The trial shows you what the log didn&rsquo;t.
         </div>

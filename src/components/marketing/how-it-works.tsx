@@ -19,7 +19,7 @@ const steps = [
 export function MarketingHowItWorks() {
   return (
     <section id="how" className="max-w-[1100px] mx-auto px-4 sm:px-6 py-12 sm:py-16">
-      <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-[56px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-7 sm:mb-9 text-balance">
+      <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-[56px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-12 sm:mb-14 md:mb-16 text-balance">
         Three things. Nothing else.
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
