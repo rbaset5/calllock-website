@@ -1,18 +1,18 @@
 const scenarios = [
-  { label: "Solo operator \u00b7 slow week", missed: 8, avg: 280 },
-  { label: "Busy 2-truck \u00b7 summer heat", missed: 22, avg: 340 },
-  { label: "5-truck shop \u00b7 Monday surge", missed: 35, avg: 420 },
-  { label: "Storm week \u00b7 after-hours", missed: 58, avg: 380 },
+  { label: "Solo operator, slow week", missed: 8, avg: 280 },
+  { label: "Busy 2-truck, summer heat", missed: 22, avg: 340 },
+  { label: "5-truck shop, Monday surge", missed: 35, avg: 420 },
+  { label: "Storm week, after-hours", missed: 58, avg: 380 },
 ];
 
 export function MarketingProofStrip() {
   return (
     <section id="proof" className="max-w-[1100px] mx-auto px-4 sm:px-6 py-10 sm:py-12 md:py-16">
-      <div className="mb-8 sm:mb-10 max-w-[820px]">
-        <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-3.5">
+      <div className="mb-12 sm:mb-14 md:mb-16 max-w-[820px]">
+        <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-5">
           How the math works
         </div>
-        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[32px] sm:text-5xl md:text-[56px] leading-[0.95] tracking-[-0.02em] text-[#0e0f0c] mb-3.5 text-balance">
+        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[32px] sm:text-5xl md:text-[56px] leading-[0.95] tracking-[-0.02em] text-[#0e0f0c] mb-6 sm:mb-7 text-balance">
           Missed calls this week
           <br />
           <span className="text-[#868685]">&times;</span> your avg job ticket
@@ -22,9 +22,9 @@ export function MarketingProofStrip() {
             revenue on the floor.
           </span>
         </h2>
-        <div className="text-base sm:text-[17px] font-medium text-[#454745] leading-[1.4] max-w-[620px]">
+        <div className="text-base sm:text-[17px] font-medium text-[#454745] leading-[1.5] max-w-[640px]">
           Not a guess. Pull your missed-call log and do the multiplication.
-          Most shops are shocked by the answer.
+          Most shops are shocked by the answer. The trial shows you what the log didn&rsquo;t.
         </div>
       </div>
 
@@ -65,15 +65,15 @@ export function MarketingProofStrip() {
                 ${loss.toLocaleString()}
               </div>
               <div className="text-xs font-medium text-[#868685] text-center mt-1.5">
-                on the floor this week
+                visible on the floor this week
               </div>
             </div>
           );
         })}
       </div>
 
-      <div className="text-sm font-medium text-[#454745] text-center mt-7 italic max-w-[760px] mx-auto">
-        Most shops miss 15 to 25 calls a week <span className="underline underline-offset-[3px]">and don&rsquo;t realize it.</span> The impatient callers, the ones who hang up before voicemail, never generate a log entry. Those are the emergency and install-today jobs, the ones worth the most. CallLock catches them before voicemail.
+      <div className="text-sm font-medium text-[#454745] text-center mt-7 italic max-w-[820px] mx-auto">
+        Most shops miss 15 to 25 calls a week <span className="underline underline-offset-[3px]">and don&rsquo;t realize it.</span> The impatient callers, the ones who hang up before voicemail, never generate a log entry. Those are the emergency and install-today jobs, the ones worth the most. Your log doesn&rsquo;t see them. The trial does.
       </div>
     </section>
   );

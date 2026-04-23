@@ -5,9 +5,9 @@ export function MarketingTestimonial() {
         <div className="font-bold text-xs sm:text-[13px] tracking-[0.1em] uppercase text-[#9fe870] mb-6 sm:mb-7">
           Frank Ramirez &middot; Ramirez HVAC &middot; 3 trucks
         </div>
-        <blockquote className="font-[family-name:var(--mk-font-display)] font-black text-[30px] sm:text-4xl md:text-[48px] lg:text-[56px] leading-[0.95] tracking-[-0.02em] text-[#f8f8f5] m-0 mb-8 sm:mb-10 text-balance">
+        <blockquote className="font-[family-name:var(--mk-font-display)] font-black text-[28px] sm:text-4xl md:text-[44px] lg:text-[52px] leading-[1] tracking-[-0.02em] text-[#f8f8f5] m-0 mb-8 sm:mb-10 text-balance">
           &ldquo;I was running calls between jobs and still missing half the
-          new ones. Paid for CallLock in the first weekend off a{" "}
+          new ones. Turned CallLock on for a weekend. Paid for itself off a{" "}
           <span className="bg-[#9fe870] text-[#163300] px-2 rounded-lg">
             $1,080 compressor replacement
           </span>{" "}
