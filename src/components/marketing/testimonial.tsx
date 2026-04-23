@@ -2,12 +2,6 @@ export function MarketingTestimonial() {
   return (
     <section className="bg-[#0e0f0c] py-14 sm:py-20 mt-8 px-4 sm:px-6">
       <div className="max-w-[1000px] mx-auto">
-        <div className="font-bold text-xs sm:text-[13px] tracking-[0.14em] uppercase text-[#9fe870] mb-3">
-          Proof
-        </div>
-        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[32px] sm:text-4xl md:text-5xl leading-[0.95] tracking-[-0.02em] text-[#f8f8f5] mb-8 sm:mb-10 text-balance">
-          Real shops. Real dollars recovered.
-        </h2>
         <div className="font-bold text-xs sm:text-[13px] tracking-[0.1em] uppercase text-[#9fe870] mb-6 sm:mb-7">
           Frank Ramirez &middot; Ramirez HVAC &middot; 3 trucks
         </div>
