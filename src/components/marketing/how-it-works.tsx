@@ -43,7 +43,7 @@ export function MarketingHowItWorks() {
       </div>
       <div className="mt-6 sm:mt-7 text-right">
         <a
-          href="#pricing"
+          href="#schedule"
           className="inline-block text-sm sm:text-[15px] font-semibold text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity"
         >
           See the full process &rarr;
