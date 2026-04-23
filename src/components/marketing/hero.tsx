@@ -29,12 +29,18 @@ export function MarketingHero() {
       </p>
 
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-3.5 mb-10 sm:mb-12">
-        <button className="font-semibold text-base sm:text-[17px] bg-[#9fe870] text-[#163300] border-0 rounded-full px-5 sm:px-[22px] py-3.5 cursor-pointer active:scale-95 transition-transform">
+        <a
+          href="#schedule"
+          className="font-semibold text-base sm:text-[17px] bg-[#9fe870] text-[#163300] border-0 rounded-full px-5 sm:px-[22px] py-3.5 cursor-pointer active:scale-95 transition-transform no-underline text-center inline-block"
+        >
           Start catching calls
-        </button>
-        <button className="font-semibold text-base sm:text-[17px] bg-transparent text-[#0e0f0c] border-0 px-2 py-3.5 cursor-pointer text-left sm:text-center">
+        </a>
+        <a
+          href="#schedule"
+          className="font-semibold text-base sm:text-[17px] bg-transparent text-[#0e0f0c] border-0 px-2 py-3.5 cursor-pointer text-left sm:text-center no-underline"
+        >
           See a live example &rarr;
-        </button>
+        </a>
       </div>
 
       <div className="bg-white rounded-[20px] sm:rounded-[30px] shadow-[0_0_0_1px_rgba(14,15,12,0.12)] p-5 sm:p-6 md:p-7">
