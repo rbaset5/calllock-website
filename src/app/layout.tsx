@@ -33,8 +33,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CallLock — Catch the calls you miss.",
-  description: "Your AI receptionist answers when you can't. Books the job, texts you the details in 30 seconds.",
+  title: "CallLock",
+  description: "Catch the calls you miss.",
   icons: {
     icon: "/calllock-mark.png",
     apple: "/calllock-mark.png",
@@ -42,6 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://calllock.co/",
+    siteName: "CallLock",
     title: "CallLock",
     description: "Catch the calls you miss.",
     images: [
