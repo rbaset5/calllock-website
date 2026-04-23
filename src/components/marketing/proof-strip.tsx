@@ -73,7 +73,7 @@ export function MarketingProofStrip() {
       </div>
 
       <div className="text-sm font-medium text-[#454745] text-center mt-7 italic max-w-[760px] mx-auto">
-        Most shops miss 15 to 25 calls a week and don&rsquo;t realize it. The impatient callers, the ones who hang up before voicemail, never generate a log entry. Those are the emergency and install-today jobs, the ones worth the most. CallLock catches them before voicemail.
+        Most shops miss 15 to 25 calls a week <span className="underline underline-offset-[3px]">and don&rsquo;t realize it.</span> The impatient callers, the ones who hang up before voicemail, never generate a log entry. Those are the emergency and install-today jobs, the ones worth the most. CallLock catches them before voicemail.
       </div>
     </section>
   );
