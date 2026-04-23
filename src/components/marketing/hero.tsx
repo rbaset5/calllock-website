@@ -14,9 +14,6 @@ export function MarketingHero() {
           <span className="w-1.5 h-1.5 rounded-full bg-[#054d28]" aria-hidden />
           Missed-call revenue recovery
         </span>
-        <span className="inline-flex items-center font-semibold text-[11px] sm:text-xs uppercase tracking-[0.09em] text-[#054d28] bg-[#e2f6d5] px-3 py-1.5 rounded-full">
-          Home services
-        </span>
         <span className="inline-flex items-center font-semibold text-xs sm:text-[13px] text-[#454745] bg-white shadow-[0_0_0_1px_rgba(14,15,12,0.08)] px-3 py-1.5 rounded-full">
           Built for 1&ndash;15 truck shops. Not for call centers.
         </span>
