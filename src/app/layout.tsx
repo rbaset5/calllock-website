@@ -42,16 +42,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://calllock.co/",
-    title: "CallLock — Catch the calls you miss.",
-    description: "Your AI receptionist answers when you can't. Books the job, texts you the details in 30 seconds.",
+    title: "CallLock",
+    description: "Catch the calls you miss.",
     images: [
-      { url: "/calllock-og.png", width: 1200, height: 1200, alt: "CallLock" },
+      { url: "/calllock-og.png", width: 1200, height: 1200, alt: "CallLock — Catch the calls you miss." },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CallLock — Catch the calls you miss.",
-    description: "Your AI receptionist answers when you can't. Books the job, texts you the details in 30 seconds.",
+    title: "CallLock",
+    description: "Catch the calls you miss.",
     images: ["/calllock-og.png"],
   },
 };
