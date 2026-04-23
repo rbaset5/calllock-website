@@ -29,6 +29,7 @@ const tiers: Tier[] = [
       "Live transcripts and recordings (30-day retention)",
       "Unlimited simultaneous calls, no busy signals",
       "72-hour done-for-you setup, no config screens",
+      "Sized for ~15 bookings/month",
     ],
     math: "One $500 service call pays for 2+ months. Miss one to voicemail and the tier covered itself twice.",
     quote: "Your AI receptionist answers when you can\u2019t.",
@@ -48,6 +49,7 @@ const tiers: Tier[] = [
       "Snooze, notes, and in-app booking modal for rescheduling",
       "Same AI, same features, more capacity for busier shops",
       "Handles Monday morning surges and storm rushes in parallel",
+      "Sized for ~40 bookings/month",
     ],
     math: "Book one extra job a month and you\u2019re ahead. Book two and you\u2019re 2\u00d7 up. At a $500 average ticket, the math holds from your first busy week.",
     quote: "Stop thinking. Start dispatching.",
@@ -77,19 +79,16 @@ export function MarketingPricing() {
   return (
     <section id="pricing" className="max-w-[1240px] mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-24 pb-20 sm:pb-24">
       <div className="mb-8 sm:mb-10 max-w-[780px]">
-        <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-1.5">
+        <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-3.5">
           Pricing
         </div>
-        <div className="text-sm font-semibold text-[#0e0f0c] mb-3.5">
-          Missed-call revenue recovery, priced for 1 to 15 truck shops.
-        </div>
-        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[34px] sm:text-5xl md:text-[56px] lg:text-[64px] leading-[0.95] tracking-[-0.02em] text-[#0e0f0c] mb-4 text-balance">
-          Every call that rolls to voicemail is a job walking to your competitor.
+        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-6xl lg:text-[64px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-3.5 text-balance">
+          Pick the plan that
+          <br />
+          matches your shop.
         </h2>
-        <div className="text-base sm:text-lg font-medium text-[#454745] leading-[1.45]">
-          Most shops we audit are losing $3,000 to $12,000 a month this way.
-          CallLock catches every call, books the job straight to your calendar,
-          texts you in 30 seconds. Live in 72 hours. Starts at $197/mo.
+        <div className="text-base sm:text-lg font-medium text-[#454745] max-w-[580px] leading-[1.4]">
+          Flat monthly. Month-to-month. No per-call fees. No per-minute gotchas.
         </div>
       </div>
 
@@ -99,8 +98,13 @@ export function MarketingPricing() {
         ))}
       </div>
 
-      <div className="text-sm font-medium text-[#868685] mt-8 sm:mt-10 text-center px-4">
-        14-day free trial on every plan. 72-hour done-for-you setup. Cancel from the app.
+      <div className="text-center px-4 mt-8 sm:mt-10 space-y-1 max-w-[680px] mx-auto">
+        <div className="text-sm font-semibold text-[#0e0f0c]">
+          Outgrow your tier? We keep catching calls. We&rsquo;ll ping you when it&rsquo;s time to move up.
+        </div>
+        <div className="text-sm font-medium text-[#868685]">
+          14-day free trial on every plan. 72-hour done-for-you setup. Cancel from the app.
+        </div>
       </div>
     </section>
   );
