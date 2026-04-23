@@ -1,8 +1,8 @@
 const scenarios = [
-  { label: "Solo operator \u00b7 slow week", missed: 8, avg: 280 },
-  { label: "Busy 2-truck \u00b7 summer heat", missed: 22, avg: 340 },
-  { label: "5-truck shop \u00b7 Monday surge", missed: 35, avg: 420 },
-  { label: "Storm week \u00b7 after-hours", missed: 58, avg: 380 },
+  { label: "Solo operator, slow week", missed: 8, avg: 280 },
+  { label: "Busy 2-truck, summer heat", missed: 22, avg: 340 },
+  { label: "5-truck shop, Monday surge", missed: 35, avg: 420 },
+  { label: "Storm week, after-hours", missed: 58, avg: 380 },
 ];
 
 export function MarketingProofStrip() {
@@ -21,10 +21,14 @@ export function MarketingProofStrip() {
           <span className="bg-[#9fe870] text-[#163300] px-2 rounded-[10px]">
             revenue on the floor.
           </span>
+          <br />
+          <span className="text-[#454745] text-[0.7em]">
+            And that&rsquo;s before the calls your log never captured.
+          </span>
         </h2>
-        <div className="text-base sm:text-[17px] font-medium text-[#454745] leading-[1.4] max-w-[620px]">
+        <div className="text-base sm:text-[17px] font-medium text-[#454745] leading-[1.4] max-w-[640px]">
           Not a guess. Pull your missed-call log and do the multiplication.
-          Most shops are shocked by the answer.
+          Most shops are shocked by the answer. The trial shows you what the log didn&rsquo;t.
         </div>
       </div>
 
@@ -65,15 +69,15 @@ export function MarketingProofStrip() {
                 ${loss.toLocaleString()}
               </div>
               <div className="text-xs font-medium text-[#868685] text-center mt-1.5">
-                on the floor this week
+                visible on the floor this week
               </div>
             </div>
           );
         })}
       </div>
 
-      <div className="text-sm font-medium text-[#454745] text-center mt-7 italic max-w-[760px] mx-auto">
-        Most shops miss 15 to 25 calls a week <span className="underline underline-offset-[3px]">and don&rsquo;t realize it.</span> The impatient callers, the ones who hang up before voicemail, never generate a log entry. Those are the emergency and install-today jobs, the ones worth the most. CallLock catches them before voicemail.
+      <div className="text-sm font-medium text-[#454745] text-center mt-7 italic max-w-[820px] mx-auto">
+        Most shops miss 15 to 25 calls a week <span className="underline underline-offset-[3px]">and don&rsquo;t realize it.</span> The impatient callers, the ones who hang up before voicemail, never generate a log entry. Those are the emergency and install-today jobs, the ones worth the most. Your log doesn&rsquo;t see them. The trial does.
       </div>
     </section>
   );

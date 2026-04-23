@@ -11,24 +11,28 @@ export function MarketingHero() {
     <section className="max-w-[1100px] mx-auto px-4 sm:px-6 pt-10 sm:pt-16 md:pt-[72px] pb-8 sm:pb-12">
       <div className="inline-flex items-center gap-2 font-semibold text-xs sm:text-[13px] text-[#454745] bg-[#e2f6d5] px-3 py-1.5 rounded-full mb-5 sm:mb-7">
         <span className="w-1.5 h-1.5 rounded-full bg-[#054d28]" aria-hidden />
-        Built for 1&ndash;15 truck shops. Not for call centers.
+        Built for 1 to 15 truck shops. Not for call centers.
       </div>
 
-      <h1 className="font-[family-name:var(--mk-font-display)] font-black text-[44px] leading-[0.9] sm:text-6xl md:text-7xl lg:text-[88px] xl:text-[104px] lg:leading-[0.85] tracking-[-0.025em] text-[#0e0f0c] mb-4 sm:mb-5 text-balance">
-        You missed{" "}
+      <h1 className="font-[family-name:var(--mk-font-display)] font-black text-[40px] leading-[0.95] sm:text-5xl md:text-6xl lg:text-[76px] xl:text-[88px] lg:leading-[0.9] tracking-[-0.025em] text-[#0e0f0c] mb-4 sm:mb-5 text-balance">
+        The{" "}
         <span className="bg-[#9fe870] text-[#163300] px-2 sm:px-2.5 rounded-[10px] sm:rounded-xl inline-block">
-          ${weeklyLoss.toLocaleString()}
-        </span>
+          $6,120
+        </span>{" "}
+        you already know about.
         <br />
-        this week.
+        Plus the jobs you don&rsquo;t.
       </h1>
 
-      <p className="font-medium text-base sm:text-lg md:text-xl text-[#454745] max-w-[560px] mb-6 sm:mb-8 leading-[1.4]">
-        CallLock answers when you miss a call and it rings out. Books the job. Texts you the details
-        in 30 seconds. Flat monthly, no per-call fees.
+      <p className="font-medium text-base sm:text-lg md:text-xl text-[#454745] max-w-[620px] mb-6 sm:mb-8 leading-[1.45]">
+        Missed-call revenue recovery for home services shops. Your voicemail log
+        shows the patient callers. CallLock picks up the ones who hang up before
+        voicemail too, the urgent jobs dialing for emergency service. They never
+        leave a message, they call the next shop. Run a 14-day trial.
+        We&rsquo;ll show you your real number.
       </p>
 
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-3.5 mb-10 sm:mb-12">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-3.5 mb-3 sm:mb-3.5">
         <a
           href="#schedule"
           className="font-semibold text-base sm:text-[17px] bg-[#9fe870] text-[#163300] border-0 rounded-full px-5 sm:px-[22px] py-3.5 cursor-pointer active:scale-95 transition-transform no-underline text-center inline-flex items-center justify-center gap-2"
@@ -46,7 +50,7 @@ export function MarketingHero() {
           >
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
           </svg>
-          Start catching calls
+          See your real number
         </a>
         <a
           href="#schedule"
@@ -55,6 +59,9 @@ export function MarketingHero() {
           See a live example &rarr;
         </a>
       </div>
+      <div className="text-xs sm:text-[13px] font-medium text-[#868685] mb-10 sm:mb-12">
+        14-day free trial. No card required. Live in 72 hours.
+      </div>
 
       <div className="bg-white rounded-[20px] sm:rounded-[30px] shadow-[0_0_0_1px_rgba(14,15,12,0.12)] p-5 sm:p-6 md:p-7">
         <div className="font-bold text-[11px] sm:text-xs uppercase tracking-[0.09em] text-[#868685] mb-4">
@@ -62,7 +69,7 @@ export function MarketingHero() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr_1.3fr] gap-5 items-stretch md:items-end">
           <StepperField
-            label="Missed calls this week"
+            label="Missed calls this week (voicemails only)"
             value={missed}
             display={missed.toString()}
             onDec={() => setMissed(Math.max(0, missed - 1))}
@@ -77,12 +84,19 @@ export function MarketingHero() {
           />
           <div className="text-left md:text-right border-t md:border-t-0 border-[#e6e6e1] pt-4 md:pt-0">
             <div className="text-[13px] font-medium text-[#454745] mb-1">
-              Weekly revenue on the floor
+              Visible revenue on the floor
             </div>
             <div className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-[40px] leading-[0.9] text-[#d03238] tracking-[-0.02em]">
               ${weeklyLoss.toLocaleString()}
             </div>
+            <div className="text-[12px] font-medium text-[#868685] mt-1.5 md:max-w-[220px] md:ml-auto">
+              That&rsquo;s just the calls that hit voicemail.
+            </div>
           </div>
+        </div>
+        <div className="mt-5 pt-5 border-t border-[#e6e6e1] text-sm font-medium text-[#454745] leading-[1.5]">
+          The hang-ups aren&rsquo;t in your log. CallLock catches those too.
+          Your real number is bigger. The 14-day trial measures it.
         </div>
       </div>
     </section>

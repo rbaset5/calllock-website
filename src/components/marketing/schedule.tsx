@@ -82,19 +82,27 @@ export function MarketingSchedule() {
     <section id="schedule" className="max-w-[1240px] mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-24 pb-20 sm:pb-24">
       <div className="mb-8 sm:mb-10 max-w-[820px]">
         <div className="font-bold text-xs uppercase tracking-[0.14em] text-[#454745] mb-3.5">
-          Get a walkthrough
+          Prefer to talk first?
         </div>
         <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-6xl lg:text-[64px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-3.5 text-balance">
           Book a 20-minute
           <br />
           call with the founder.
         </h2>
-        <div className="text-base sm:text-lg font-medium text-[#454745] max-w-[620px] leading-[1.4]">
-          No deck, no sales pitch. Bring your missed-call log; we&rsquo;ll run the numbers on your shop live.
+        <div className="text-base sm:text-lg font-medium text-[#454745] max-w-[640px] leading-[1.45] mb-5">
+          No deck. No sales pitch. Bring your missed-call log and we&rsquo;ll
+          look at it together. Most shops just start the trial, the trial shows
+          you what the log can&rsquo;t. But if you want to talk first, pick a time.
         </div>
+        <a
+          href="#schedule-picker"
+          className="inline-flex items-center gap-2 font-semibold text-base bg-[#0e0f0c] text-[#f8f8f5] rounded-full px-5 py-3 no-underline active:scale-95 transition-transform"
+        >
+          Pick a time &rarr;
+        </a>
       </div>
 
-      <div className="bg-white rounded-[24px] sm:rounded-[32px] shadow-[0_0_0_1px_rgba(14,15,12,0.10)] overflow-hidden grid grid-cols-1 md:grid-cols-[280px_1fr] lg:grid-cols-[320px_1fr]">
+      <div id="schedule-picker" className="bg-white rounded-[24px] sm:rounded-[32px] shadow-[0_0_0_1px_rgba(14,15,12,0.10)] overflow-hidden grid grid-cols-1 md:grid-cols-[280px_1fr] lg:grid-cols-[320px_1fr] scroll-mt-8">
         {/* Host column */}
         <div className="bg-[#0e0f0c] text-[#f8f8f5] p-7 sm:p-8 md:p-[30px] md:px-[30px] flex flex-col">
           <div className="w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-full overflow-hidden mb-4 md:mb-[18px] ring-2 ring-[#9fe870]">

@@ -21,13 +21,15 @@ export function MarketingNav() {
           <a href="#how" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">How it works</a>
           <a href="#proof" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">Proof</a>
           <a href="#pricing" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">Pricing</a>
-          <a href="#login" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">Log in</a>
-          <a
-            href="#schedule"
-            className="font-semibold text-[15px] bg-[#0e0f0c] text-[#f8f8f5] rounded-full px-[18px] py-2.5 no-underline hover:scale-[1.02] transition-transform inline-block"
-          >
-            Start catching calls
-          </a>
+          <div className="flex items-center gap-4 ml-2 pl-6 border-l border-[rgba(14,15,12,0.08)]">
+            <a href="#login" className="font-semibold text-[15px] text-[#0e0f0c] no-underline hover:opacity-70 transition-opacity">Log in</a>
+            <a
+              href="#schedule"
+              className="font-semibold text-[15px] bg-[#0e0f0c] text-[#f8f8f5] rounded-full px-[18px] py-2.5 no-underline hover:scale-[1.02] transition-transform inline-block"
+            >
+              Start your trial
+            </a>
+          </div>
         </div>
         <a
           href="#pricing"
