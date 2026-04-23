@@ -83,13 +83,13 @@ export function MarketingPricing() {
         <div className="text-sm font-semibold text-[#0e0f0c] mb-3.5">
           Missed-call revenue recovery, priced for 1 to 15 truck shops.
         </div>
-        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-6xl lg:text-[64px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-3.5 text-balance">
-          Pick the plan that
-          <br />
-          matches your shop.
+        <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[34px] sm:text-5xl md:text-[56px] lg:text-[64px] leading-[0.95] tracking-[-0.02em] text-[#0e0f0c] mb-4 text-balance">
+          Every call that rolls to voicemail is a job walking to your competitor.
         </h2>
-        <div className="text-base sm:text-lg font-medium text-[#454745] max-w-[580px] leading-[1.4]">
-          Flat monthly. Month-to-month. No per-call fees. No per-minute gotchas.
+        <div className="text-base sm:text-lg font-medium text-[#454745] leading-[1.45]">
+          Most shops we audit are losing $3,000 to $12,000 a month this way.
+          CallLock catches every call, books the job straight to your calendar,
+          texts you in 30 seconds. Live in 72 hours. Starts at $197/mo.
         </div>
       </div>
 

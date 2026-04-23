@@ -19,9 +19,12 @@ const steps = [
 export function MarketingHowItWorks() {
   return (
     <section id="how" className="max-w-[1100px] mx-auto px-4 sm:px-6 py-12 sm:py-16">
-      <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-[56px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-7 sm:mb-9">
+      <h2 className="font-[family-name:var(--mk-font-display)] font-black text-[36px] sm:text-5xl md:text-[56px] leading-[0.9] tracking-[-0.02em] text-[#0e0f0c] mb-3 text-balance">
         Three things. Nothing else.
       </h2>
+      <p className="text-base sm:text-lg font-medium text-[#454745] leading-[1.45] max-w-[620px] mb-7 sm:mb-9">
+        And that&rsquo;s before the calls your log never captured.
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
         {steps.map((s) => (
           <div

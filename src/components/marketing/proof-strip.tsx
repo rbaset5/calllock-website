@@ -21,10 +21,6 @@ export function MarketingProofStrip() {
           <span className="bg-[#9fe870] text-[#163300] px-2 rounded-[10px]">
             revenue on the floor.
           </span>
-          <br />
-          <span className="text-[#454745] text-[0.7em]">
-            And that&rsquo;s before the calls your log never captured.
-          </span>
         </h2>
         <div className="text-base sm:text-[17px] font-medium text-[#454745] leading-[1.4] max-w-[640px]">
           Not a guess. Pull your missed-call log and do the multiplication.

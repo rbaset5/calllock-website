@@ -9,27 +9,32 @@ export function MarketingHero() {
 
   return (
     <section className="max-w-[1100px] mx-auto px-4 sm:px-6 pt-10 sm:pt-16 md:pt-[72px] pb-8 sm:pb-12">
-      <div className="inline-flex items-center gap-2 font-semibold text-xs sm:text-[13px] text-[#454745] bg-[#e2f6d5] px-3 py-1.5 rounded-full mb-5 sm:mb-7">
-        <span className="w-1.5 h-1.5 rounded-full bg-[#054d28]" aria-hidden />
-        Built for 1 to 15 truck shops. Not for call centers.
+      <div className="flex flex-wrap gap-2 mb-5 sm:mb-6">
+        <span className="inline-flex items-center gap-1.5 font-semibold text-[11px] sm:text-xs uppercase tracking-[0.09em] text-[#054d28] bg-[#e2f6d5] px-3 py-1.5 rounded-full">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#054d28]" aria-hidden />
+          Missed-call revenue recovery
+        </span>
+        <span className="inline-flex items-center font-semibold text-[11px] sm:text-xs uppercase tracking-[0.09em] text-[#054d28] bg-[#e2f6d5] px-3 py-1.5 rounded-full">
+          Home services
+        </span>
+        <span className="inline-flex items-center font-semibold text-xs sm:text-[13px] text-[#454745] bg-white shadow-[0_0_0_1px_rgba(14,15,12,0.08)] px-3 py-1.5 rounded-full">
+          Built for 1&ndash;15 truck shops. Not for call centers.
+        </span>
       </div>
 
-      <h1 className="font-[family-name:var(--mk-font-display)] font-black text-[40px] leading-[0.95] sm:text-5xl md:text-6xl lg:text-[76px] xl:text-[88px] lg:leading-[0.9] tracking-[-0.025em] text-[#0e0f0c] mb-4 sm:mb-5 text-balance">
-        The{" "}
+      <h1 className="font-[family-name:var(--mk-font-display)] font-black text-[44px] leading-[0.9] sm:text-6xl md:text-7xl lg:text-[88px] xl:text-[104px] lg:leading-[0.85] tracking-[-0.025em] text-[#0e0f0c] mb-4 sm:mb-5 text-balance">
+        You missed{" "}
         <span className="bg-[#9fe870] text-[#163300] px-2 sm:px-2.5 rounded-[10px] sm:rounded-xl inline-block">
-          $6,120
-        </span>{" "}
-        you already know about.
+          ${weeklyLoss.toLocaleString()}
+        </span>
         <br />
-        Plus the jobs you don&rsquo;t.
+        this week.
       </h1>
 
       <p className="font-medium text-base sm:text-lg md:text-xl text-[#454745] max-w-[620px] mb-6 sm:mb-8 leading-[1.45]">
-        Missed-call revenue recovery for home services shops. Your voicemail log
-        shows the patient callers. CallLock picks up the ones who hang up before
-        voicemail too, the urgent jobs dialing for emergency service. They never
-        leave a message, they call the next shop. Run a 14-day trial.
-        We&rsquo;ll show you your real number.
+        CallLock catches missed calls before voicemail, books the job, and
+        texts you in 30 seconds. The 14-day trial shows you the real number
+        &mdash; including the urgent hang-ups your log never sees.
       </p>
 
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-3.5 mb-3 sm:mb-3.5">
